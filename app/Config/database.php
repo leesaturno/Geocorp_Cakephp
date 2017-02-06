@@ -6,7 +6,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
+		'password' => 'hunter12',
 		'database' => 'geocorp',
 		'encoding' => 'utf8',
 	);

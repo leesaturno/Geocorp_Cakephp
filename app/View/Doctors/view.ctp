@@ -109,7 +109,7 @@
 			<td class="text-center"><?php echo $inform['medicamento_id']; ?></td>
 			<td class="text-center"><?php echo $inform['diagnostico_id']; ?></td>
 			<td class="text-center"><?php echo $inform['conclusiones']; ?></td>
-			<td class="text-center"><?php echo $inform['patients_id']; ?></td>
+			<td class="text-center"><?php echo $inform['patient_id']; ?></td>
 			<td class="text-center"><?php echo $inform['doctor_id']; ?></td>
 			<td class="text-center"><?php echo $inform['created']; ?></td>
 			<td class="text-center"><?php echo $inform['modified']; ?></td>

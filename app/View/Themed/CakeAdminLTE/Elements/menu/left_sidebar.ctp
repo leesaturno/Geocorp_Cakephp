@@ -21,16 +21,13 @@
           </div>
           <?php echo $this->Form->button('Buscar', array('div' => false, 'class' => 'btn btn-primary')); ?>
         <?php echo $this->Form->end(); ?>
-        <!-- /.search form -->
+        <!-- /.search form --> <br><br><br><br>
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-            <li class="active">
-                <?= $this->Html->link('<i class="fa fa-dashboard"></i> <span>Dashboard</span>', '/', array('escape' => false)); ?>
-            </li>
+           
             <li>
-                <a href="pages/widgets.html">
-                    <i class="fa fa-th"></i> <span>Widgets</span> <small class="badge pull-right bg-green">new</small>
-                </a>
+                 <?php echo $this->Html->link(__('<i class="fa fa-heartbeat"></i>Patientes'), array('controller'=>'patients','action' => 'index'), array('class' => 'btn btn-danger', 'escape' => false)); ?>
+                
             </li>
             <li class="treeview">
                 <a href="#">
