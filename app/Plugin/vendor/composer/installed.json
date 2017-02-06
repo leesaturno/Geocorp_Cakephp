@@ -1,0 +1,276 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "d78064c68299743e0161004f2de3a0204e33b804"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+            "reference": "d78064c68299743e0161004f2de3a0204e33b804",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2016-08-13 20:53:52",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "ImageCMS",
+            "MODX Evo",
+            "Mautic",
+            "OXID",
+            "Plentymarkets",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "josegonzalez/cakephp-upload",
+        "version": "2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/josegonzalez/cakephp-upload.git",
+            "reference": "f470b9b7b313d84959212f25c3d353d5ab5ebd80"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/josegonzalez/cakephp-upload/zipball/f470b9b7b313d84959212f25c3d353d5ab5ebd80",
+            "reference": "f470b9b7b313d84959212f25c3d353d5ab5ebd80",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*"
+        },
+        "time": "2016-09-13 09:34:32",
+        "type": "cakephp-plugin",
+        "extra": {
+            "installer-name": "Upload"
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joshua Paling",
+                "homepage": "https://github.com/joshuapaling",
+                "role": "Contributor"
+            },
+            {
+                "name": "sdoney",
+                "homepage": "https://github.com/sdoney",
+                "role": "Contributor"
+            },
+            {
+                "name": "Giuliano B",
+                "homepage": "https://github.com/giulianob",
+                "role": "Contributor"
+            },
+            {
+                "name": "Justin Slamka",
+                "homepage": "https://github.com/slamkajs",
+                "role": "Contributor"
+            },
+            {
+                "name": "Nathan Tyler",
+                "homepage": "https://github.com/tylerdigital",
+                "role": "Contributor"
+            },
+            {
+                "name": "Mirko Chialastri",
+                "homepage": "https://github.com/hiryu85",
+                "role": "Contributor"
+            },
+            {
+                "name": "Benjamin Allison",
+                "homepage": "https://github.com/benjaminallison",
+                "role": "Contributor"
+            },
+            {
+                "name": "Ariel Patschiki",
+                "homepage": "https://github.com/arielpts",
+                "role": "Contributor"
+            },
+            {
+                "name": "lucfranken",
+                "homepage": "https://github.com/lucfranken",
+                "role": "Contributor"
+            },
+            {
+                "name": "cpierce",
+                "homepage": "https://github.com/cpierce",
+                "role": "Contributor"
+            },
+            {
+                "name": "Barry Chapman",
+                "homepage": "https://github.com/barrychapman",
+                "role": "Contributor"
+            },
+            {
+                "name": "Thomas Edvalson",
+                "homepage": "https://github.com/Cruel",
+                "role": "Contributor"
+            },
+            {
+                "name": "Alejandro Ibarra",
+                "homepage": "https://github.com/ajibarra",
+                "role": "Contributor"
+            },
+            {
+                "name": "simkimsia",
+                "homepage": "https://github.com/simkimsia",
+                "role": "Contributor"
+            },
+            {
+                "name": "Callum Macdonald",
+                "homepage": "https://github.com/chmac",
+                "role": "Contributor"
+            },
+            {
+                "name": "David Kullmann",
+                "homepage": "https://github.com/dkullmann",
+                "role": "Contributor"
+            },
+            {
+                "name": "Juan Basso",
+                "homepage": "https://github.com/jrbasso",
+                "role": "Contributor"
+            },
+            {
+                "name": "Cauan Cabral",
+                "homepage": "https://github.com/CauanCabral",
+                "role": "Contributor"
+            },
+            {
+                "name": "Bryan Crowe",
+                "homepage": "https://github.com/bcrowe",
+                "role": "Contributor"
+            },
+            {
+                "name": "Simon Brown",
+                "homepage": "https://github.com/Simes",
+                "role": "Contributor"
+            },
+            {
+                "name": "wilsolutions",
+                "homepage": "https://github.com/wilsolutions",
+                "role": "Contributor"
+            },
+            {
+                "name": "Graham Watson",
+                "homepage": "https://github.com/PhantomWatson",
+                "role": "Contributor"
+            },
+            {
+                "name": "ceallred",
+                "homepage": "https://github.com/ceallred",
+                "role": "Contributor"
+            },
+            {
+                "name": "Jose Diaz-Gonzalez",
+                "email": "email@josediazgonzalez.com",
+                "homepage": "http://josediazgonzalez.com",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Marc Würth",
+                "homepage": "https://github.com/ravage84",
+                "role": "Contributor"
+            }
+        ],
+        "description": "CakePHP plugin to handle file uploading sans ridiculous automagic",
+        "homepage": "http://github.com/josegonzalez/cakephp-upload",
+        "keywords": [
+            "Behavior",
+            "cakephp",
+            "files",
+            "upload"
+        ]
+    }
+]
