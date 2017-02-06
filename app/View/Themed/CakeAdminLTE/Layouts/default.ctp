@@ -76,7 +76,7 @@ echo $this->Html->css('jquery-ui.min');
 			</aside><!-- /.right-side -->
 			
 	<script type="text/javascript">
-		$("#foto").fileinput();
+		//$("#foto").fileinput();
 		
 		var basePath = "<?php echo Router::url('/'); ?>"
 	</script>
@@ -86,9 +86,9 @@ echo $this->Html->css('jquery-ui.min');
 			
 		
 		
-<?php echo $this->Html->script('jquery-1.8.3.min'); ?>
+<?php echo $this->Html->script('jquery.min'); ?>
 <?php echo $this->Html->script('jquery-ui.min'); ?>
-<?php echo $this->Html->script('search'); ?>
+<?php //echo $this->Html->script('search'); ?>
 		<?php
 		
 			echo $this->Html->script('bootstrap.min');

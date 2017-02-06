@@ -4,15 +4,11 @@
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
         <!-- Sidebar user panel -->
-        <div class="user-panel">
-            <div class="pull-left image">
+        <div class="">
+            <div class="pull-center image">
                 <?= $this->Html->image('avatar04.png', array('class' => 'img-circle')); ?>
             </div>
-            <div class="pull-left info">
-                <p>Hello, Sherwin</p>
-
-                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-            </div>
+            
         </div>
         <!-- search form -->
         <?php echo $this->Form->create('patients', array('type' => 'GET', 'class' => 'navbar-form navbar-left', 'url' => array('controller' => 'patients', 'action' => 'search'))); ?>

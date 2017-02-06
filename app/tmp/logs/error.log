@@ -4363,3 +4363,514 @@ Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
 Stack Trace:
 #0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-02-06 23:50:42 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:50:42 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:50:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:50:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:50:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:23 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:51:23 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:51:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:45 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:51:45 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:51:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:53 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:51:53 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:51:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:51:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:07 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:52:07 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:52:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:32 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:52:32 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:52:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:51 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:52:51 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:52:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:52:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:53:00 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:53:00 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:53:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:53:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:53:10 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:53:10 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:53:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:53:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:53:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/js/jquery-1.8.3.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:55:02 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:55:02 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:55:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:56:21 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:56:21 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:56:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:57:28 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 132]
+2017-02-06 23:57:28 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 132, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:57:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:57:47 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 136]
+2017-02-06 23:57:47 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:57:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 23:59:08 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 136]
+2017-02-06 23:59:08 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-06 23:59:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:06:11 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 136]
+2017-02-07 00:06:11 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-07 00:06:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:07:43 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php, line 136]
+2017-02-07 00:07:43 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+Request URL: /Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 136, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-07 00:07:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:08:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:08:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:11:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:11:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:16:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 00:16:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -91,11 +91,11 @@ class PatientsController extends AppController {
 			$options = array('conditions' => array('Patient.' . $this->Patient->primaryKey => $id));
 			$this->request->data = $this->Patient->find('first', $options);
 		}
-		$etnias = $this->Patient->Etnium->find('list');
+		$etnias = $this->Patient->Etnia->find('list');
 		$people = $this->Patient->Person->find('list');
 		$countries = $this->Patient->Country->find('list');
 		$municipios = $this->Patient->Municipio->find('list');
-		$parroquias = $this->Patient->Parroquium->find('list');
+		$parroquias = $this->Patient->Parroquia->find('list');
 		$typeBloods = $this->Patient->TypeBlood->find('list');
 		$comuns = $this->Patient->Comun->find('list');
 		$ocupacions = $this->Patient->Ocupacion->find('list');
@@ -126,10 +126,10 @@ class PatientsController extends AppController {
 		$this->redirect(array('action' => 'index'));
 	}
 
-	public function searchjson()
+	/*public function searchjson()
 	{
-		$term = null
-		if(|empty($this->request->query['term']))
+		$term = null;
+		if(!empty($this->request->query['term']))
 		{
 			$term = $this->request->query['term'];
 			$terms = explode('', thim($term));
@@ -142,5 +142,5 @@ class PatientsController extends AppController {
 			$patient = $this->Patient->find('all',array ('recursive' => -1, 'fields' => array('patient.id', 'patient.person.nombre'), 'conditions' => $conditions, 'limit' => 20));
 		}
 		echo json_encode($patient);
-	}
+	}*/
 }
