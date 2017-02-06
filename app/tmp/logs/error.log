@@ -4874,3 +4874,686 @@ Request URL: /Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
 Stack Trace:
 #0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-02-06 20:22:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3653): Model->setSource('patients')
+#5 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3031): Model->getDataSource()
+#6 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#8 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#9 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php(27): Controller->paginate()
+#10 [internal function]: PatientsController->index()
+#11 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
+#12 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2017-02-06 20:22:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:23:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:24:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:37:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:38:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:40:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:40:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:42:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:53:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:54:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:54:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:57:14 Error: [MissingActionException] Action PatientsController::index.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'PatientsController',
+  'action' => 'index.html',
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/patients/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-06 20:57:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:57:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:59:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 20:59:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:00:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:00:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:07:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:21:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:28:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:29:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:30:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:31:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:32:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:32:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:33:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:34:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:35:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:35:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:37:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:37:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:38:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:38:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:39:02 Error: [MissingControllerException] Controller class DoctoresController could not be found.
+Exception Attributes: array (
+  'class' => 'DoctoresController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/doctores
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:39:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:39:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:42:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:43:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:44:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:44:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:44:46 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:44:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:45:02 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:45:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:45:24 Error: [MissingControllerException] Controller class HospitalController could not be found.
+Exception Attributes: array (
+  'class' => 'HospitalController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/hospital
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:45:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:45:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:46:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:46:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:53:42 Error: [MissingControllerException] Controller class CARGOController could not be found.
+Exception Attributes: array (
+  'class' => 'CARGOController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/CARGO
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:53:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:54:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:55:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:56:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 21:59:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:00:15 Error: [MissingControllerException] Controller class CargoController could not be found.
+Exception Attributes: array (
+  'class' => 'CargoController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/cargo/
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:00:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:00:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:02:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:03:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:05:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:07:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:09:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:40:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:41:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:43:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:44:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:45:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:50:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:50:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:51:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-06 22:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

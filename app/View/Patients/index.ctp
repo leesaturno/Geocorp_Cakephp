@@ -13,64 +13,33 @@
                 <table id="Patients" class="table table-bordered table-striped">
 					<thead>
 						<tr>
-													<th class="text-center"><?php echo $this->Paginator->sort('id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('etnia_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('person_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('urbanizacion_res'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('avenida_res'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('casa_res'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('piso_res'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('tiempo_residencia'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('country_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('municipio_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('parroquia_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('type_blood_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('fpp'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('fun'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('comun_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('ocupacion_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('created'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('modified'); ?></th>
-												<th class="text-center"><?php echo __('Actions'); ?></th>
+													
+													<th class="text-center"><?php echo $this->Paginator->sort('Cedula'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('Tipo de Sangre'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('Fecha Probable de Parto'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('Fecha de Ultima Regla'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('Ocupacion'); ?></th>
+													
 						</tr>
 					</thead>
 					<tbody>
 					<?php foreach ($patients as $patient): ?>
 	<tr>
-		<td class="text-center"><?php echo h($patient['Patient']['id']); ?>&nbsp;</td>
+	
+		
 		<td class="text-center">
-			<?php echo $this->Html->link($patient['Etnia']['descripcion'], array('controller' => 'etnias', 'action' => 'view', $patient['Etnia']['id'])); ?>
+			<?php echo $this->Html->link($patient['Person']['cedula'], array('controller' => 'people', 'action' => 'view', $patient['Person']['id'])); ?>
 		</td>
-		<td class="text-center">
-			<?php echo $this->Html->link($patient['Person']['nacionalidad'], array('controller' => 'people', 'action' => 'view', $patient['Person']['id'])); ?>
-		</td>
-		<td class="text-center"><?php echo h($patient['Patient']['urbanizacion_res']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($patient['Patient']['avenida_res']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($patient['Patient']['casa_res']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($patient['Patient']['piso_res']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($patient['Patient']['tiempo_residencia']); ?>&nbsp;</td>
-		<td class="text-center">
-			<?php echo $this->Html->link($patient['Country']['descripcion'], array('controller' => 'countries', 'action' => 'view', $patient['Country']['id'])); ?>
-		</td>
-		<td class="text-center">
-			<?php echo $this->Html->link($patient['Municipio']['descripcion'], array('controller' => 'municipios', 'action' => 'view', $patient['Municipio']['id'])); ?>
-		</td>
-		<td class="text-center">
-			<?php echo $this->Html->link($patient['Parroquia']['descripcion'], array('controller' => 'parroquias', 'action' => 'view', $patient['Parroquia']['id'])); ?>
-		</td>
+		
 		<td class="text-center">
 			<?php echo $this->Html->link($patient['TypeBlood']['descripcion'], array('controller' => 'type_bloods', 'action' => 'view', $patient['TypeBlood']['id'])); ?>
 		</td>
 		<td class="text-center"><?php echo h($patient['Patient']['fpp']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($patient['Patient']['fun']); ?>&nbsp;</td>
-		<td class="text-center">
-			<?php echo $this->Html->link($patient['Comun']['descripci'], array('controller' => 'comuns', 'action' => 'view', $patient['Comun']['id'])); ?>
-		</td>
+	
 		<td class="text-center">
 			<?php echo $this->Html->link($patient['Ocupacion']['descripcion'], array('controller' => 'ocupacions', 'action' => 'view', $patient['Ocupacion']['id'])); ?>
-		</td>
-		<td class="text-center"><?php echo h($patient['Patient']['created']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($patient['Patient']['modified']); ?>&nbsp;</td>
+
 		<td class="text-center">
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $patient['Patient']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $patient['Patient']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
