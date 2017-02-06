@@ -139,7 +139,8 @@ class PatientsController extends AppController {
 				$conditions[] = array('el.patient.person.nombre LIKE' => '%' .$term . '%' );
 			}
 
-			$patient = $this->Patient->find('all',array ('recursive' => -1, 'fields' => array('patient.id', 'patient.person.nombre'), 'conditions'))
+			$patient = $this->Patient->find('all',array ('recursive' => -1, 'fields' => array('patient.id', 'patient.person.nombre'), 'conditions' => $conditions, 'limit' => 20));
 		}
+		echo json_encode($patient);
 	}
 }
