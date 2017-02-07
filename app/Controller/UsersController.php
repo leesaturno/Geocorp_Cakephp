@@ -42,6 +42,10 @@ public function login(){
 					 $this->Session->setFlash('Correo y/o Contraseña invalidos', 'default', array('class'=> 'alert alert-danger'));
 				 }
 				}
+				public function logout()
+	{
+		return $this->redirect($this->Auth->logout());
+	}
 
 	public function view($id = null) {
 		if (!$this->User->exists($id)) {

@@ -67,6 +67,7 @@ echo $this->Html->css('jquery-ui.min');
 
 		<?php endif; ?>
 			<!-- Right side column. Contains the navbar and content of the page -->
+<?php if (isset($current_user)): ?>
 		    <aside class="right-side">  
 		    	<section class="content-header">
 				    <h1>
@@ -78,6 +79,7 @@ echo $this->Html->css('jquery-ui.min');
 				        <li class="active">Blank page</li>
 				    </ol>
 				</section> 
+				<?php endif; ?>
 				<section class="content"> 
 				<?php echo $this->Session->flash(); ?>
 				<?php echo $this->fetch('content'); ?>
