@@ -32,11 +32,31 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
-	  public function beforeFilter()
-    {
-     $this->response->header('Access-Control-Allow-Origin', '');   
-    }
+	
+         
+
+
     
 	public $theme = "CakeAdminLTE";
-	public $components = array('DebugKit.Toolbar'=>array('panels'=> array('log'=> false, 'variables'=> false), 'history'=>10), 'RequestHandler');
+	public $components = array('DebugKit.Toolbar'=>array('panels'=> array('log'=> false, 'variables'=> false), 'history'=>10), 'RequestHandler', 'Session', 
+            'Auth'=> array(
+                'loginRedirect'=>array(
+                    'controller'=> 'users', 
+                    'action'=>'home'
+            ), 
+            'logoutRedirect'=> array(
+                'controller'=> 'users', 
+                'action'=>'login'
+            ), 
+            'authenticate'=> array( 
+                'Form'=> array(
+                'passwordHasher'=> 'Blowfish', 'fields' => array('username'=>'email', 'password'=>'password')
+                )            
+            ), 'authError'=> false
+            ));
+	public function beforeFilter(){
+         	$this->response->header('Access-Control-Allow-Origin', '*'); 
+            $this->Auth->allow('login', 'logout');
+            $this->set('current_user', $this->Auth->user());
+         }
 }

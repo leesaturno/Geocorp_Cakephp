@@ -53,11 +53,19 @@ echo $this->Html->css('jquery-ui.min');
 	</head>
 
 	<body class="skin-blue fixed">
+<?php if (isset($current_user)): ?>
+
+
+
+
 
 		<?php echo $this->element('menu/top_menu'); ?>
+		<?php endif; ?>
 		<div class="wrapper row-offcanvas row-offcanvas-left">
+		<?php if (isset($current_user)): ?>
 			<?php echo $this->element('menu/left_sidebar'); ?>
-		
+
+		<?php endif; ?>
 			<!-- Right side column. Contains the navbar and content of the page -->
 		    <aside class="right-side">  
 		    	<section class="content-header">

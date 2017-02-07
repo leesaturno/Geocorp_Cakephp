@@ -34,6 +34,15 @@ class UsersController extends AppController {
  * @param string $id
  * @return void
  */
+public function login(){
+				 if ($this->request->is('post')){
+					 if ($this->Auth->login()) {
+						 return $this->redirect($this->Auth->redirectUrl());
+					 }
+					 $this->Session->setFlash('Correo y/o Contraseña invalidos', 'default', array('class'=> 'alert alert-danger'));
+				 }
+				}
+
 	public function view($id = null) {
 		if (!$this->User->exists($id)) {
 			throw new NotFoundException(__('Invalid user'));
@@ -42,6 +51,10 @@ class UsersController extends AppController {
 		$this->set('user', $this->User->find('first', $options));
 	}
 
+public function home(){
+
+	$this->render();
+}
 /**
  * add method
  *
