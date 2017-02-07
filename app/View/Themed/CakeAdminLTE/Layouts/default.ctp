@@ -23,7 +23,7 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 
 		<title>
 			<?php echo $cakeDescription ?>:
-			<?php echo $title_for_layout; ?>
+			
 		</title>
 		<style type="text/css">.flash-msg {
     position: absolute;
@@ -71,14 +71,10 @@ echo $this->Html->css('jquery-ui.min');
 		    <aside class="right-side">  
 		    	<section class="content-header">
 				    <h1>
-				        <?php echo $title_for_layout; ?>
-				        <small>Control panel</small>
+				        
+				        <small>Panel de control</small>
 				    </h1>
-				    <ol class="breadcrumb">
-				        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-				        <li class="active">Blank page</li>
-				    </ol>
-				</section> 
+				  <section> 
 				<?php endif; ?>
 				<section class="content"> 
 				<?php echo $this->Session->flash(); ?>

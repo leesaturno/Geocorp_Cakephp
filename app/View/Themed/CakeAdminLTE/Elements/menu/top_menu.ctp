@@ -1,6 +1,6 @@
 <!-- header logo: style can be found in header.less -->
         <header class="header">
-            <a href="index.html" class="logo">
+            <a href="/Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/" class="logo">
                 <!-- Add the class icon to your logo image or logo icon to add the margining -->
                 GeoCorp
             </a>
@@ -52,19 +52,41 @@
                                 </li>
                             </ul>
                         </li>
+                        <?php if ($current_user['rols_id']==2): ?>
+
+
+
+
+
+     
+        
                         <!-- User Account: style can be found in dropdown.less -->
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="glyphicon glyphicon-user"></i>
-                                <span>Sherwin Robles <i class="caret"></i></span>
-                            </a>
-                            <ul class="dropdown-menu">
+                                <i class="icon icon-user-md" style="font-size:25px;color:#fff;"></i>&nbsp;&nbsp;&nbsp;
+                                <span style="font-size:25px;color:#fff;"><?php echo $current_user['email']; ?><i class="caret"></i></span>
+                            </a><?php endif; ?>
+
+ <?php if ($current_user['rols_id']==1): ?>
+
+
+
+
+
+     
+        
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-user-secret" style="font-size:35px;color:#fff;"></i>
+                                <span style="font-size:25px;color:#fff;"><?php echo $current_user['email']; ?><i class="caret"></i></span>
+                            </a><?php endif; ?>                            <ul class="dropdown-menu">
                                 <!-- User image -->
                                 <li class="user-header bg-light-black">
                                      <?= $this->Html->image('avatar04.png', array('class' => 'img-circle')); ?>
                                     <p>
-                                        Sherwin Robles - Web Developer
-                                        <small>Member since Nov. 2011</small>
+                                        <?php echo $current_user['email']; ?>
+                                        
                                     </p>
                                 </li>
                                 <!-- Menu Body -->
@@ -75,7 +97,7 @@
             
                                     </div>
                                     <div class="pull-right">
-                                        <?php echo $this->Html->link('Salir', array('controller' => 'users', 'action' => 'logout'),array('class' => 'fa fa-singout btn btn-default btn-flat'))?>
+                                        <?php echo $this->Html->link('Salir', array('controller' => 'users', 'action' => 'logout'),array('class' => 'fa fa-sign-out btn btn-default btn-flat'))?>
                                     </div>
                                 </li>
                             </ul>

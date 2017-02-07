@@ -217,7 +217,7 @@ class Patient extends AppModel {
 			'foreignKey' => 'municipio_id',
 			'conditions' => '',
 			'fields' => '',
-			'order' => ''
+			'order' => ''		
 		),
 		'Parroquia' => array(
 			'className' => 'Parroquia',
