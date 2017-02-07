@@ -6,25 +6,23 @@
 		<div class="box-header">
 			<h3 class="box-title"><?php echo __('Comuns'); ?></h3>
 			<div class="box-tools pull-right">
-                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-plus"></i> New Comun'), array('action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-plus"></i>'), array('action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
             </div>
 		</div>	
 			<div class="box-body table-responsive">
                 <table id="Comuns" class="table table-bordered table-striped">
 					<thead>
 						<tr>
-													<th class="text-center"><?php echo $this->Paginator->sort('id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('descripci'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('created'); ?></th>
+													
 												<th class="text-center"><?php echo __('Actions'); ?></th>
 						</tr>
 					</thead>
 					<tbody>
 					<?php foreach ($comuns as $comun): ?>
 	<tr>
-		<td class="text-center"><?php echo h($comun['Comun']['id']); ?>&nbsp;</td>
+		
 		<td class="text-center"><?php echo h($comun['Comun']['descripci']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($comun['Comun']['created']); ?>&nbsp;</td>
 		<td class="text-center">
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $comun['Comun']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $comun['Comun']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>

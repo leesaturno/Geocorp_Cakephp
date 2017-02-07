@@ -6,27 +6,25 @@
 		<div class="box-header">
 			<h3 class="box-title"><?php echo __('Cargos'); ?></h3>
 			<div class="box-tools pull-right">
-                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-plus"></i> New Cargo'), array('action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-plus"></i> '), array('action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
             </div>
 		</div>	
 			<div class="box-body table-responsive">
                 <table id="Cargos" class="table table-bordered table-striped">
 					<thead>
 						<tr>
-													<th class="text-center"><?php echo $this->Paginator->sort('id'); ?></th>
+													
 													<th class="text-center"><?php echo $this->Paginator->sort('descripcion'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('created'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('modified'); ?></th>
+													
 												<th class="text-center"><?php echo __('Actions'); ?></th>
 						</tr>
 					</thead>
 					<tbody>
 					<?php foreach ($cargos as $cargo): ?>
 	<tr>
-		<td class="text-center"><?php echo h($cargo['Cargo']['id']); ?>&nbsp;</td>
+		
 		<td class="text-center"><?php echo h($cargo['Cargo']['descripcion']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($cargo['Cargo']['created']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($cargo['Cargo']['modified']); ?>&nbsp;</td>
+
 		<td class="text-center">
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $cargo['Cargo']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $cargo['Cargo']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>

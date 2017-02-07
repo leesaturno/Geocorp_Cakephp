@@ -13,8 +13,7 @@
                 <table id="Doctors" class="table table-bordered table-striped">
 					<thead>
 						<tr>
-													<th class="text-center"><?php echo $this->Paginator->sort('id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('person_id'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('Cedula'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('cod_sanitarios'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('sexo'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('status'); ?></th>
@@ -22,15 +21,12 @@
 													<th class="text-center"><?php echo $this->Paginator->sort('cargo_id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('profesion_id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('fecha_grado'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('created'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('modified'); ?></th>
 												<th class="text-center"><?php echo __('Actions'); ?></th>
 						</tr>
 					</thead>
 					<tbody>
 					<?php foreach ($doctors as $doctor): ?>
 	<tr>
-		<td class="text-center"><?php echo h($doctor['Doctor']['id']); ?>&nbsp;</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($doctor['Person']['cedula'], array('controller' => 'people', 'action' => 'view', $doctor['Person']['id'])); ?>
 		</td>
@@ -47,8 +43,6 @@
 			<?php echo $this->Html->link($doctor['Profesion']['id'], array('controller' => 'profesions', 'action' => 'view', $doctor['Profesion']['id'])); ?>
 		</td>
 		<td class="text-center"><?php echo h($doctor['Doctor']['fecha_grado']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($doctor['Doctor']['created']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($doctor['Doctor']['modified']); ?>&nbsp;</td>
 		<td class="text-center">
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $doctor['Doctor']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $doctor['Doctor']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
