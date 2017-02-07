@@ -13,12 +13,7 @@
 			<div class="box-body table-responsive">
                 <table id="Patients" class="table table-bordered table-striped">
 					<tbody>
-						<tr>		<td><strong><?php echo __('Id'); ?></strong></td>
-		<td>
-			<?php echo h($patient['Patient']['id']); ?>
-			&nbsp;
-		</td>
-</tr><tr>		<td><strong><?php echo __('Etnia'); ?></strong></td>
+			<tr>		<td><strong><?php echo __('Etnia'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($patient['Etnia']['descripcion'], array('controller' => 'etnias', 'action' => 'view', $patient['Etnia']['id']), array('class' => '')); ?>
 			&nbsp;

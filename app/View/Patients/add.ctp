@@ -3,7 +3,7 @@
     <div class="col-xs-6 col-xs-offset-3">
 		<div class="box box-primary">
 			<div class="box-header">
-			<h3 class="box-title"><?php echo __('Add Patient'); ?></h3>
+			<h3 class="box-title"><?php echo __('Agregar'); ?></h3>
 			</div>
 			<div class="box-body table-responsive">
 		
@@ -12,7 +12,7 @@
 				<fieldset>
 
 										<div class="form-group">
-						<?php echo $this->Form->input('etnia_id', array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('etnia_id', array('class' => 'form-control', 'empty'=> true, 'default'=> 'N/A')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">
 						<?php echo $this->Form->input('person_id', array('class' => 'form-control')); ?>
