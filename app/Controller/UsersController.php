@@ -96,19 +96,75 @@ class UsersController extends AppController {
  * @param string $id
  * @return void
  */
-	public function delete($id = null) {
-		if (!$this->request->is('post')) {
-			throw new MethodNotAllowedException();
+	function database_mysql_dump($tables = '*') {
+
+		    $return = '';
+
+		    $modelName = $this->modelClass;
+
+		    $dataSource = $this->{$modelName}->getDataSource();
+		    $databaseName = $dataSource->getSchemaName();
+
+
+		    // Realizar un Header
+		    $return .= '-- Database: `' . $databaseName . '`' . "\n";
+		    $return .= '-- Generation time: ' . date('D jS M Y H:i:s') . "\n\n\n";
+
+
+		    if ($tables == '*') {
+		        $tables = array();
+		        $result = $this->{$modelName}->query('SHOW TABLES');
+		        foreach($result as $resultKey => $resultValue){
+		            $tables[] = current($resultValue['TABLE_NAMES']);
+		        }
+		    } else {
+		        $tables = is_array($tables) ? $tables : explode(',', $tables);
+		    }
+
+		    // Recorrer todas las Tablas
+		    foreach ($tables as $table) {
+		        $tableData = $this->{$modelName}->query('SELECT * FROM ' . $table);
+
+		        $return .= 'DROP TABLE IF EXISTS ' . $table . ';';
+		        $createTableResult = $this->{$modelName}->query('SHOW CREATE TABLE ' . $table);
+		        $createTableEntry = current(current($createTableResult));
+		        $return .= "\n\n" . $createTableEntry['Create Table'] . ";\n\n";
+
+		        // Ingresando datos de las tablas 
+		        foreach($tableData as $tableDataIndex => $tableDataDetails) {
+
+		            $return .= 'INSERT INTO ' . $table . ' VALUES(';
+
+		            foreach($tableDataDetails[$table] as $dataKey => $dataValue) {
+
+		                if(is_null($dataValue)){
+		                    $escapedDataValue = 'NULL';
+		                }
+		                else {
+		                    // Codiiacno
+		                    $escapedDataValue = mb_convert_encoding( $dataValue, "UTF-8", "ISO-8859-1" );
+		                    $escapedDataValue = $this->{$modelName}->getDataSource()->value($escapedDataValue);
+		                }
+
+		                $tableDataDetails[$table][$dataKey] = $escapedDataValue;
+		            }
+		            $return .= implode(',', $tableDataDetails[$table]);
+
+		            $return .= ");\n";
+		        }
+
+		        $return .= "\n\n\n";
+		    }
+
+		    // Colocar el Nombre
+		    $fileName = $databaseName . '-Respaldo-' . date('Y-m-d_H-i-s') . '.sql';
+
+		    // Y por Ultimo colocarlo para descargar
+		    $this->autoRender = false;
+		    $this->response->type('Content-Type: text/x-sql');
+		    $this->response->download($fileName);
+		    $this->response->body($return);
 		}
-		$this->User->id = $id;
-		if (!$this->User->exists()) {
-			throw new NotFoundException(__('Invalid user'));
-		}
-		if ($this->User->delete()) {
-			$this->Session->setFlash(__('User deleted'), 'flash/success');
-			$this->redirect(array('action' => 'index'));
-		}
-		$this->Session->setFlash(__('User was not deleted'), 'flash/error');
-		$this->redirect(array('action' => 'index'));
-	}
+
+
 }

@@ -5,55 +5,51 @@
     <section class="sidebar">
         <!-- Sidebar user panel -->
         <div class="">
-            <div class="pull-center image">
-                <?= $this->Html->image('avatar04.png', array('class' => 'img-circle')); ?>
-            </div>
+           
             
         </div>
         <!-- search form -->
-        <?php echo $this->Form->create('patients', array('type' => 'GET', 'class' => 'navbar-form navbar-left', 'url' => array('controller' => 'patients', 'action' => 'search'))); ?>
-          <div class="form-group">
-              <?php echo $this->Form->input('search', array('label' => false, 'div' => false, 'id' => 's', 'class' => 'form-control s', 'autocomplete' => 'off', 'placeholder' => 'Buscar patients...')); ?>
-          </div>
-          <?php echo $this->Form->button('Buscar', array('div' => false, 'class' => 'btn btn-primary')); ?>
-        <?php echo $this->Form->end(); ?>
+       
         <!-- /.search form --> <br><br><br><br>
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-           
-            <li>
-                 <?php echo $this->Html->link(__('<i class="fa fa-heartbeat"></i>Patientes'), array('controller'=>'patients','action' => 'index'), array('class' => 'btn btn-danger', 'escape' => false)); ?>
-                
-            </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-bar-chart-o"></i>
-                    <span>Charts</span>
+                    <i class="icon icon-pregnant_woman" style="font-size:40px;color:red;"></i>
+                    <span style="font-size:20px;">Patientes</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/charts/morris.html"><i class="fa fa-angle-double-right"></i> Morris</a></li>
-                    <li><a href="pages/charts/flot.html"><i class="fa fa-angle-double-right"></i> Flot</a></li>
-                    <li><a href="pages/charts/inline.html"><i class="fa fa-angle-double-right"></i> Inline charts</a></li>
+                   
+                    <li><?php echo $this->Html->link(__('<i class="icon icon-list-numbered"></i>Lista de Patientes'), array('controller'=>'patients','action' => 'index'), array('class' => 'btn btn-default', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>
+                     <li><?php echo $this->Html->link(__('<i class="icon icon-medkit"></i>Nuevo'), array('controller'=>'patients','action' => 'add'), array('class' => 'btn btn-primary', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>   
+                </ul>
+            </li>            
+            <li class="treeview">
+                <a href="#">
+                    <i class="icon icon-user-md" style="font-size:40px;color:red;"></i>
+                    <span style="font-size:20px;">Doctores</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><?php echo $this->Html->link(__('<i class="icon icon-list-numbered"></i>Lista de Doctores'), array('controller'=>'doctors','action' => 'index'), array('class' => 'btn btn-default', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>
+                     <li><?php echo $this->Html->link(__('<i class="icon icon-user-plus"></i>Nuevo'), array('controller'=>'doctors','action' => 'add'), array('class' => 'btn btn-primary', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>  
                 </ul>
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-laptop"></i>
-                    <span>UI Elements</span>
+                    <i class="icon icon-profile" style="font-size:40px;color:red;"></i>
+                    <span style="font-size:20px;">Informes</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="pages/UI/general.html"><i class="fa fa-angle-double-right"></i> General</a></li>
-                    <li><a href="pages/UI/icons.html"><i class="fa fa-angle-double-right"></i> Icons</a></li>
-                    <li><a href="pages/UI/buttons.html"><i class="fa fa-angle-double-right"></i> Buttons</a></li>
-                    <li><a href="pages/UI/sliders.html"><i class="fa fa-angle-double-right"></i> Sliders</a></li>
-                    <li><a href="pages/UI/timeline.html"><i class="fa fa-angle-double-right"></i> Timeline</a></li>
+                    <li><?php echo $this->Html->link(__('<i class="icon icon-list-numbered"></i>Lista de Informes'), array('controller'=>'informs','action' => 'index'), array('class' => 'btn btn-default', 'style'=>'color:#000;font-size:18px;', 'escape'  => false)); ?></li>
+                     <li><?php echo $this->Html->link(__('<i class="icon icon-clipboard-add"></i>Nuevo'), array('controller'=>'informs','action' => 'add'), array('class' => 'btn btn-primary', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>  
                 </ul>
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-edit"></i> <span>Forms</span>
+                    <i class="icon icon-image" style="font-size:40px;color:red;"></i> <span style="font-size:20px;">Ecografias</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">

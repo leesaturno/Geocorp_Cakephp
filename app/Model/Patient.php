@@ -268,19 +268,7 @@ class Patient extends AppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
-		'History' => array(
-			'className' => 'History',
-			'foreignKey' => 'patient_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'exclusive' => '',
-			'finderQuery' => '',
-			'counterQuery' => ''
-		),
+
 		'Inform' => array(
 			'className' => 'Inform',
 			'foreignKey' => 'patient_id',
@@ -308,5 +296,13 @@ class Patient extends AppModel {
 			'counterQuery' => ''
 		)
 	);
+public $hasOne = array(
+			'History' => array(
+			'className' => 'History',
+			'foreignKey' => false,			
+			'conditions' => '',
+			
+		)
+			);
 
 }
