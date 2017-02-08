@@ -1,6 +1,6 @@
 
 <div class="row">
-    <div class="col-xs-6 col-xs-offset-3">
+    <div class="col-xs-12 col-xs-offset-3">
 		<div class="box box-primary">
 			<div class="box-header">
 			<h3 class="box-title"><?php echo __('Agregar'); ?></h3>
@@ -11,15 +11,29 @@
 
 				<fieldset>
 
-										<div class="form-group">
-						<?php echo $this->Form->input('etnia_id', array('class' => 'form-control', 'empty'=> true, 'default'=> 'N/A')); ?>
-					</div><!-- .form-group -->
+				 <div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('person_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div>
+
+					 <div class="col-md-3">
+				   <div class="form-group">
+						<?php echo $this->Form->input('etnia_id', array('class' => 'form-control', 'empty'=> true, 'default'=> 'N/A')); ?>
+					</div><!-- .form-group -->
+					</div>
+
+					 <div class="col-md-3">
+					<div class="form-group">
+						<?php echo $this->Form->input('person_id', array('class' => 'form-control')); ?>
+					</div><!-- .form-group -->
+					</div>
+					 <div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('urbanizacion_res', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div>
+
 					<div class="form-group">
 						<?php echo $this->Form->input('avenida_res', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
