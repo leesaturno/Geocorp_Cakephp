@@ -6301,3 +6301,21 @@ Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/css/jquery-ui.min.css
 Stack Trace:
 #0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-02-07 22:42:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 22:50:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
