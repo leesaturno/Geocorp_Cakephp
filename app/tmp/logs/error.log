@@ -6319,3 +6319,829 @@ Request URL: /css/jquery-ui.min.css
 Stack Trace:
 #0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-02-07 23:01:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:03:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:03:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:03:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:03:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:16:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:16:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:16:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:17:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:18:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:22:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:22:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:24:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:25:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:25:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:26:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:27:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:28:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:29:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:29:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-07 23:30:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:08:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:08:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:09:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:09:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:11:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:11:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:12:40 Error: [MissingActionException] Action HospitalesController::hospitales.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalesController',
+  'action' => 'hospitales.json',
+)
+Request URL: /hospitales/hospitales.json
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalesController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 00:13:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:13:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:14:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:14:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:15:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:19:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:19:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:20:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:20:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:22:36 Error: [MissingActionException] Action HospitalesController::hospitales.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalesController',
+  'action' => 'hospitales.json',
+)
+Request URL: /hospitales/hospitales.json
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalesController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 00:22:45 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in [/home/cabox/workspace/app/View/Themed/CakeAdminLTE/Elements/menu/top_menu.ctp, line 67]
+2017-02-08 00:22:45 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';'
+Request URL: /patients/add
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 67, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 67, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 00:22:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:22:47 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in [/home/cabox/workspace/app/View/Themed/CakeAdminLTE/Elements/menu/top_menu.ctp, line 67]
+2017-02-08 00:22:47 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';'
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 67, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 67, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 00:23:34 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in [/home/cabox/workspace/app/View/Themed/CakeAdminLTE/Elements/menu/top_menu.ctp, line 68]
+2017-02-08 00:23:34 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';'
+Request URL: /patients/add
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 68, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 68, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 00:23:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:23:34 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in [/home/cabox/workspace/app/View/Themed/CakeAdminLTE/Elements/menu/top_menu.ctp, line 68]
+2017-02-08 00:23:34 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';'
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 68, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 68, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 00:24:04 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in [/home/cabox/workspace/app/View/Themed/CakeAdminLTE/Elements/menu/top_menu.ctp, line 83]
+2017-02-08 00:24:04 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';'
+Request URL: /patients/add
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 83, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 83, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 00:24:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:24:05 Error: Fatal Error (4): syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';' in [/home/cabox/workspace/app/View/Themed/CakeAdminLTE/Elements/menu/top_menu.ctp, line 83]
+2017-02-08 00:24:05 Error: [FatalErrorException] syntax error, unexpected 'endif' (T_ENDIF), expecting ',' or ';'
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 83)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 83, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 83, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 00:24:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:25:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:26:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:26:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:27:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:29:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:32:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:36:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:37:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:39:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:41:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:43:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:43:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:45:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:46:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:46:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:47:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:47:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:53:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:53:59 Error: [MissingActionException] Action PatientsController::Corposalud1.png() could not be found.
+Exception Attributes: array (
+  'controller' => 'PatientsController',
+  'action' => 'Corposalud1.png',
+)
+Request URL: /patients/Corposalud1.png
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 00:54:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:54:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/Corposalud1.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:54:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:54:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/Corposalud1.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:54:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:54:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/Corposalud1.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:54:44 Error: [MissingActionException] Action HospitalesController::hospitales.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalesController',
+  'action' => 'hospitales.json',
+)
+Request URL: /hospitales/hospitales.json
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalesController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 00:55:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:55:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/Corposalud1.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 00:56:10 Error: [MissingActionException] Action HospitalesController::hospitales.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'HospitalesController',
+  'action' => 'hospitales.json',
+)
+Request URL: /hospitales/hospitales.json
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(HospitalesController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 00:59:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:01:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:01:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:02:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:02:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:03:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:03:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:04:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:04:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:11:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:23:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 01:23:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/jquery-ui.min.css
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

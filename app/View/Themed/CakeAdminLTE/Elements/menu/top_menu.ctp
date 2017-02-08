@@ -1,8 +1,8 @@
 <!-- header logo: style can be found in header.less -->
         <header class="header">
-            <a href="/Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/" class="logo">
+            <a href="/Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/" class="logo" width="90%" height="90%">
                 <!-- Add the class icon to your logo image or logo icon to add the margining -->
-                GeoCorp
+            <span><?= $this->Html->image('Corposalud1.png', array('class' => 'img-circle', 'width'=>'25%', 'height'=>'60%')); ?></span>  <span style="color:#0000cc"> Corpo</span> <br>&nbsp;<span style="color:red;">&nbsp;&nbsp;&nbsp;&nbsp;Salud</span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top" role="navigation">
@@ -63,8 +63,9 @@
                         <!-- User Account: style can be found in dropdown.less -->
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="icon icon-user-md" style="font-size:25px;color:#fff;"></i>&nbsp;&nbsp;&nbsp;
-                                <span style="font-size:25px;color:#fff;"><?php echo $current_user['email']; ?><i class="caret"></i></span>
+                                <i class="icon icon-user-md" style="font-size:20px;color:#fff;"></i>&nbsp;&nbsp;&nbsp;
+                                <span style="font-size:17px;color:#fff;"><?php if ($current_user['rols_id']==2): echo 'Doctor' ;
+  endif; ?><i class="caret"></i></span>
                             </a><?php endif; ?>
 
  <?php if ($current_user['rols_id']==1): ?>
@@ -79,7 +80,8 @@
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-user-secret" style="font-size:35px;color:#fff;"></i>
-                                <span style="font-size:25px;color:#fff;"><?php echo $current_user['email']; ?><i class="caret"></i></span>
+                                <span style="font-size:20px;color:#fff;"><?php if ($current_user['rols_id']==1): echo 'Administrador';
+                                  endif;  ?><i class="caret"></i></span>
                             </a><?php endif; ?>                            <ul class="dropdown-menu">
                                 <!-- User image -->
                                 <li class="user-header bg-light-black">

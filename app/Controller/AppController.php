@@ -38,7 +38,23 @@ class AppController extends Controller {
 
     
 	public $theme = "CakeAdminLTE";
-	public $components = array('DebugKit.Toolbar'=>array('panels'=> array('log'=> false, 'variables'=> false), 'history'=>10), 'RequestHandler', 'Session', 
+	/*public $components = array('DebugKit.Toolbar'=>array('panels'=> array('log'=> false, 'variables'=> false), 'history'=>10), 'RequestHandler', 'Session', 
+            'Auth'=> array(
+                'loginRedirect'=>array(
+                    'controller'=> 'users', 
+                    'action'=>'home'
+            ), 
+            'logoutRedirect'=> array(
+                'controller'=> 'users', 
+                'action'=>'login'
+            ), 
+            'authenticate'=> array( 
+                'Form'=> array(
+                'passwordHasher'=> 'Blowfish', 'fields' => array('username'=>'email', 'password'=>'password')
+                )            
+            ), 'authError'=> false
+            ));*/
+	public $components = array( 'Session', 
             'Auth'=> array(
                 'loginRedirect'=>array(
                     'controller'=> 'users', 

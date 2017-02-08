@@ -1,6 +1,6 @@
 
-<div class="row">
-    <div class="col-xs-12 col-xs-offset-3">
+<div class="">
+    <div class="col-xs-12">
 		<div class="box box-primary">
 			<div class="box-header">
 			<h3 class="box-title"><?php echo __('Agregar'); ?></h3>
@@ -11,11 +11,6 @@
 
 				<fieldset>
 
-				 <div class="col-md-3">
-					<div class="form-group">
-						<?php echo $this->Form->input('person_id', array('class' => 'form-control')); ?>
-					</div><!-- .form-group -->
-					</div>
 
 					 <div class="col-md-3">
 				   <div class="form-group">
@@ -33,44 +28,70 @@
 						<?php echo $this->Form->input('urbanizacion_res', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
 					</div>
-
+					
+					<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('avenida_res', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+					
+					<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('casa_res', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+					<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('piso_res', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+			
+					<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('tiempo_residencia', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+					
+<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('country_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+				<div class="col-md-3">
+
 					<div class="form-group">
 						<?php echo $this->Form->input('municipio_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+						</div><!-- .form-group -->
+			<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('parroquia_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+			
+					<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('type_blood_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
-					<div class="form-group">
-						<?php echo $this->Form->input('fpp', array('class' => 'form-control')); ?>
-					</div><!-- .form-group -->
-					<div class="form-group">
-						<?php echo $this->Form->input('fun', array('class' => 'form-control')); ?>
-					</div><!-- .form-group -->
-					<div class="form-group">
-						<?php echo $this->Form->input('comun_id', array('class' => 'form-control')); ?>
-					</div><!-- .form-group -->
+					</div><!-- .form-group -->	
+					<div class="col-md-3">
 					<div class="form-group">
 						<?php echo $this->Form->input('ocupacion_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
-
+</div><!-- .form-group -->
+					<div class="col-md-6">
+					<div class="form-group">
+						<?php echo $this->Form->input('fpp', array('class' => 'form-control')); ?>
+					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+					<div class="col-md-6">
+					<div class="form-group">
+						<?php echo $this->Form->input('fun', array('class' => 'form-control')); ?>
+					</div><!-- .form-group -->
+					</div><!-- .form-group -->
+					
+				
+				
 					<?php echo $this->Form->submit('Submit', array('class' => 'btn btn-large btn-primary')); ?>
 
 				</fieldset>
