@@ -11930,3 +11930,214 @@ Stack Trace:
 #12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PeopleController), Object(CakeRequest))
 #13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #14 {main}
+2017-02-08 20:00:50 Error: [MissingControllerException] Controller class S`pecialtiesController could not be found.
+Exception Attributes: array (
+  'class' => 'S`pecialtiesController',
+  'plugin' => NULL,
+)
+Request URL: /s%60pecialties
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 20:10:45 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:11:17 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:12:10 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:12:53 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:13:05 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:13:23 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:13:34 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:15:25 Error: [MissingActionException] Action DoctorsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'DoctorsController',
+  'action' => 'editar',
+)
+Request URL: /doctors/editar/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DoctorsController), Object(CakeRequest))
+#2 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-02-08 20:15:38 Error: Fatal Error (4): syntax error, unexpected '?>', expecting ')' in [/home/cabox/workspace/app/View/Doctors/index.ctp, line 48]
+2017-02-08 20:15:38 Error: [FatalErrorException] syntax error, unexpected '?>', expecting ')'
+Request URL: /doctors
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 48, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 48, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 20:16:00 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/cabox/workspace/app/View/Doctors/index.ctp, line 48]
+2017-02-08 20:16:00 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /doctors
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 48, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 48, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-08 20:24:16 Error: [MissingControllerException] Controller class EtniaController could not be found.
+Exception Attributes: array (
+  'class' => 'EtniaController',
+  'plugin' => NULL,
+)
+Request URL: /etnia
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 20:50:14 Error: [NotFoundException] Invalid country
+Request URL: /countries/view/1
+Stack Trace:
+#0 [internal function]: CountriesController->view('1')
+#1 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#2 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#4 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-08 20:50:44 Error: [NotFoundException] Invalid country
+Request URL: /Countries/view/1
+Stack Trace:
+#0 [internal function]: CountriesController->view('1')
+#1 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#2 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#4 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-08 20:52:16 Error: [NotFoundException] Invalid cargo
+Request URL: /Cargos/view/10
+Stack Trace:
+#0 [internal function]: CargosController->view('10')
+#1 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CargosController), Array)
+#2 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CargosController), Object(CakeRequest))
+#4 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-08 20:52:33 Error: [NotFoundException] Invalid cargo
+Request URL: /Cargos/view/
+Stack Trace:
+#0 [internal function]: CargosController->view()
+#1 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CargosController), Array)
+#2 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CargosController), Object(CakeRequest))
+#4 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-08 20:52:54 Error: [MissingControllerException] Controller class CargoController could not be found.
+Exception Attributes: array (
+  'class' => 'CargoController',
+  'plugin' => NULL,
+)
+Request URL: /Cargo
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-08 21:02:05 Error: [MissingTableException] Table geolocations for model Geolocation was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'geolocations',
+  'class' => 'Geolocation',
+  'ds' => 'default',
+)
+Request URL: /geolocations/
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Model.php(3653): Model->setSource('geolocations')
+#1 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /home/cabox/workspace/app/Controller/GeolocationsController.php(27): Controller->paginate()
+#6 [internal function]: GeolocationsController->index()
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GeolocationsController), Array)
+#8 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(GeolocationsController), Object(CakeRequest))
+#10 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-08 21:02:32 Error: [MissingTableException] Table geolocations for model Geolocation was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'geolocations',
+  'class' => 'Geolocation',
+  'ds' => 'default',
+)
+Request URL: /Geolocations/
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Model.php(3653): Model->setSource('geolocations')
+#1 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#2 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#3 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#5 /home/cabox/workspace/app/Controller/GeolocationsController.php(27): Controller->paginate()
+#6 [internal function]: GeolocationsController->index()
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GeolocationsController), Array)
+#8 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(GeolocationsController), Object(CakeRequest))
+#10 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

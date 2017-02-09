@@ -5,7 +5,7 @@
     <div class="box box-primary">
 		<div class="box-header">
 			<h3 class="box-title"><?php echo __('Cargos'); ?></h3>
-			<div class="box-tools pull-right">ue
+			<div class="box-tools pull-right">
                  <?php echo $this->Html->link(__('<i class="fa fa-medkit fa-2x"></i>'), array('action' => 'add'), array('class' => 'btn btn-danger', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'Agregar')); ?>
             </div>
 		</div>	

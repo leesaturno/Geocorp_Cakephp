@@ -20,7 +20,7 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Cedula'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($doctor['Person']['Cedula'], array('controller' => 'people', 'action' => 'view', $doctor['Person']['id']), array('class' => '')); ?>
+			<?php echo $this->Html->link($doctor['Person']['cedula'], array('controller' => 'people', 'action' => 'view', $doctor['Person']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Código Sanitario'); ?></strong></td>
@@ -89,11 +89,11 @@
 								<tr>
 											<th class="text-center"><?php echo __('Id'); ?></th>
 		<th class="text-center"><?php echo __('Indicaciones'); ?></th>
-		<th class="text-center"><?php echo __('Medicamento Id'); ?></th>
-		<th class="text-center"><?php echo __('Diagnostico Id'); ?></th>
+		<th class="text-center"><?php echo __('Medicamento'); ?></th>
+		<th class="text-center"><?php echo __('Diagnostico'); ?></th>
 		<th class="text-center"><?php echo __('Conclusiones'); ?></th>
-		<th class="text-center"><?php echo __('Paciente Id'); ?></th>
-		<th class="text-center"><?php echo __('Doctor Id'); ?></th>
+		<th class="text-center"><?php echo __('Paciente'); ?></th>
+		<th class="text-center"><?php echo __('Doctor'); ?></th>
 		<th class="text-center"><?php echo __('Creado'); ?></th>
 		<th class="text-center"><?php echo __('Modificado'); ?></th>
 									<th class="text-center"><?php echo __('Acción'); ?></th>

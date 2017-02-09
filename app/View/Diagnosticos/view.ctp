@@ -59,14 +59,14 @@
 								<tr>
 											<th class="text-center"><?php echo __('Id'); ?></th>
 		<th class="text-center"><?php echo __('Indicaciones'); ?></th>
-		<th class="text-center"><?php echo __('Medicamento Id'); ?></th>
-		<th class="text-center"><?php echo __('Diagnostico Id'); ?></th>
+		<th class="text-center"><?php echo __('Medicamento'); ?></th>
+		<th class="text-center"><?php echo __('Diagnostico'); ?></th>
 		<th class="text-center"><?php echo __('Conclusiones'); ?></th>
-		<th class="text-center"><?php echo __('Patients Id'); ?></th>
-		<th class="text-center"><?php echo __('Doctor Id'); ?></th>
-		<th class="text-center"><?php echo __('Created'); ?></th>
-		<th class="text-center"><?php echo __('Modified'); ?></th>
-									<th class="text-center"><?php echo __('Actions'); ?></th>
+		<th class="text-center"><?php echo __('Paciente'); ?></th>
+		<th class="text-center"><?php echo __('Doctor'); ?></th>
+		<th class="text-center"><?php echo __('Creado'); ?></th>
+		<th class="text-center"><?php echo __('Modificado'); ?></th>
+									<th class="text-center"><?php echo __('Acción'); ?></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -79,13 +79,13 @@
 			<td class="text-center"><?php echo $inform['medicamento_id']; ?></td>
 			<td class="text-center"><?php echo $inform['diagnostico_id']; ?></td>
 			<td class="text-center"><?php echo $inform['conclusiones']; ?></td>
-			<td class="text-center"><?php echo $inform['patients_id']; ?></td>
+			<td class="text-center"><?php echo $inform['patient_id']; ?></td>
 			<td class="text-center"><?php echo $inform['doctor_id']; ?></td>
 			<td class="text-center"><?php echo $inform['created']; ?></td>
 			<td class="text-center"><?php echo $inform['modified']; ?></td>
 			<td class="text-center">
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'informs', 'action' => 'view', $inform['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'informs', 'action' => 'edit', $inform['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'informs', 'action' => 'view', $inform['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'ver')); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'informs', 'action' => 'edit', $inform['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'editar')); ?>
 				<!--<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'informs', 'action' => 'delete', $inform['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['id'])); ?>-->
 			</td>
 		</tr>

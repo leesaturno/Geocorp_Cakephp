@@ -17,7 +17,7 @@
 													<th class="text-center"><?php echo $this->Paginator->sort('descripción'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('creado'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('modificado'); ?></th>
-												<th class="text-center"><?php echo __('Acción}'); ?></th>
+												<th class="text-center"><?php echo __('Acción'); ?></th>
 						</tr>
 					</thead>
 					<tbody>
