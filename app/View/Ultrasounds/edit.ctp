@@ -21,12 +21,13 @@
 						<?php echo $this->Form->input('semanas', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">
-						<?php echo $this->Form->input('foto', array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('foto', array('class' => 'form-control','type'=>'file')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">
-						<?php echo $this->Form->input('foto_dir', array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('foto_dir', array('class' => 'form-control', 'type'=>'hidden')); ?>
 					</div><!-- .form-group -->
-					<div class="form-group">
+			
+							<div class="form-group">
 						<?php echo $this->Form->input('descripcion', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">

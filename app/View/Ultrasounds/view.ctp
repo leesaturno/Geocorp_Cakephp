@@ -11,6 +11,7 @@
 			</div>
 			
 			<div class="box-body table-responsive">
+				
                 <table id="Ultrasounds" class="table table-bordered table-striped">
 					<tbody>
 						<tr>		<td><strong><?php echo __('Id'); ?></strong></td>
@@ -29,16 +30,8 @@
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Foto'); ?></strong></td>
-		<td>
-			<?php echo h($ultrasound['Ultrasound']['foto']); ?>
-			&nbsp;
-		</td>
-</tr><tr>		<td><strong><?php echo __('Foto Dir'); ?></strong></td>
-		<td>
-			<?php echo h($ultrasound['Ultrasound']['foto_dir']); ?>
-			&nbsp;
-		</td>
-</tr><tr>		<td><strong><?php echo __('Descripcion'); ?></strong></td>
+		<td class="text-center"><?php echo $this->html->image('../files/ultrasound/foto/' . $ultrasound['Ultrasound']['foto_dir'].'/'.$ultrasound['Ultrasound']['foto']); ?>&nbsp;</td>
+</tr><<tr>		<td><strong><?php echo __('Descripcion'); ?></strong></td>
 		<td>
 			<?php echo h($ultrasound['Ultrasound']['descripcion']); ?>
 			&nbsp;

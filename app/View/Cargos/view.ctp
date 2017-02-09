@@ -6,7 +6,7 @@
 			<div class="box-header">
 				<h3 class="box-title"><?php  echo __('Cargo'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $cargo['Cargo']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Editar'), array('action' => 'edit', $cargo['Cargo']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 	            </div>
 			</div>
 			
@@ -18,17 +18,17 @@
 			<?php echo h($cargo['Cargo']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Descripcion'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Descripción'); ?></strong></td>
 		<td>
 			<?php echo h($cargo['Cargo']['descripcion']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
 		<td>
 			<?php echo h($cargo['Cargo']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
 		<td>
 			<?php echo h($cargo['Cargo']['modified']); ?>
 			&nbsp;

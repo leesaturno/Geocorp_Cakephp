@@ -6,7 +6,7 @@
 			<div class="box-header">
 				<h3 class="box-title"><?php  echo __('Doctor'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $doctor['Doctor']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Editar'), array('action' => 'edit', $doctor['Doctor']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 	            </div>
 			</div>
 			
@@ -18,12 +18,12 @@
 			<?php echo h($doctor['Doctor']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Person'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Cedula'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($doctor['Person']['cedula'], array('controller' => 'people', 'action' => 'view', $doctor['Person']['id']), array('class' => '')); ?>
+			<?php echo $this->Html->link($doctor['Person']['Cedula'], array('controller' => 'people', 'action' => 'view', $doctor['Person']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Cod Sanitarios'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Código Sanitario'); ?></strong></td>
 		<td>
 			<?php echo h($doctor['Doctor']['cod_sanitarios']); ?>
 			&nbsp;
@@ -38,9 +38,9 @@
 			<?php echo h($doctor['Doctor']['status']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Hospitales'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Hospital donde trabaja actualmente'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($doctor['Hospitales']['id'], array('controller' => 'hospitales', 'action' => 'view', $doctor['Hospitales']['id']), array('class' => '')); ?>
+			<?php echo $this->Html->link($doctor['Hospitales']['id'], array('controller' => 'hospitales', 'action' => 'view', $doctor['Hospitales']['id'])); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Cargo'); ?></strong></td>
@@ -48,22 +48,22 @@
 			<?php echo $this->Html->link($doctor['Cargo']['id'], array('controller' => 'cargos', 'action' => 'view', $doctor['Cargo']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Profesion'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Especialidad'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($doctor['Profesion']['id'], array('controller' => 'profesions', 'action' => 'view', $doctor['Profesion']['id']), array('class' => '')); ?>
+			<?php echo $this->Html->link($doctor['Specialties']['id'], array('controller' => 'specialties', 'action' => 'view', $doctor['Specialties']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Fecha Grado'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Fecha de Graduación'); ?></strong></td>
 		<td>
 			<?php echo h($doctor['Doctor']['fecha_grado']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
 		<td>
 			<?php echo h($doctor['Doctor']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
 		<td>
 			<?php echo h($doctor['Doctor']['modified']); ?>
 			&nbsp;
@@ -77,9 +77,9 @@
 					
 			<div class="box box-primary">
 				<div class="box-header">
-					<h3 class="box-title"><?php echo __('Related Informs'); ?></h3>
+					<h3 class="box-title"><?php echo __('Informes Relacionados'); ?></h3>
 					<div class="box-tools pull-right">
-						<?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Inform'), array('controller' => 'informs', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
+						<?php echo $this->Html->link('<i class="fa fa-medkit""></i> '.__('Nuevo Informe'), array('controller' => 'informs', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
 				</div>
 				<?php if (!empty($doctor['Inform'])): ?>
 					
@@ -92,11 +92,11 @@
 		<th class="text-center"><?php echo __('Medicamento Id'); ?></th>
 		<th class="text-center"><?php echo __('Diagnostico Id'); ?></th>
 		<th class="text-center"><?php echo __('Conclusiones'); ?></th>
-		<th class="text-center"><?php echo __('Patients Id'); ?></th>
+		<th class="text-center"><?php echo __('Paciente Id'); ?></th>
 		<th class="text-center"><?php echo __('Doctor Id'); ?></th>
-		<th class="text-center"><?php echo __('Created'); ?></th>
-		<th class="text-center"><?php echo __('Modified'); ?></th>
-									<th class="text-center"><?php echo __('Actions'); ?></th>
+		<th class="text-center"><?php echo __('Creado'); ?></th>
+		<th class="text-center"><?php echo __('Modificado'); ?></th>
+									<th class="text-center"><?php echo __('Acción'); ?></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -114,9 +114,9 @@
 			<td class="text-center"><?php echo $inform['created']; ?></td>
 			<td class="text-center"><?php echo $inform['modified']; ?></td>
 			<td class="text-center">
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'informs', 'action' => 'view', $inform['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'informs', 'action' => 'edit', $inform['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
-				<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'informs', 'action' => 'delete', $inform['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['id'])); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'informs', 'action' => 'view', $inform['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'ver')); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'informs', 'action' => 'edit', $inform['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'editar')); ?>
+				<!--<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'informs', 'action' => 'delete', $inform['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['id'])); ?>-->
 			</td>
 		</tr>
 	<?php endforeach; ?>

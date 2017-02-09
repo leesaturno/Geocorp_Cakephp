@@ -25,20 +25,21 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 			<?php echo $cakeDescription ?>:
 			
 		</title>
-		<style type="text/css">.flash-msg {
+		<style type="text/css">
+			.flash-msg {
     position: absolute;
     top: 10px;
     right: 10px;
     z-index: 10000;
 }</style>
-<?php  ?>
+
 		<?php 
 			echo $this->Html->meta('icon');
 			$this->Html->charset;
 			echo $this->Html->meta(['name' => 'viewport', 'content' => 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no']);
 			echo $this->fetch('meta');
 		echo $this->Html->css('fonts.css'); 
-echo $this->Html->css('jquery-ui.min');
+
 			echo $this->Html->css('bootstrap.min.css');
 			echo $this->Html->css('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 			echo $this->Html->css('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
@@ -82,16 +83,22 @@ echo $this->Html->css('jquery-ui.min');
 				</section>
 			</aside><!-- /.right-side -->
 			
-	<script type="text/javascript">
-		//$("#foto").fileinput();
+	<div id="footer">
+			<?php 
+			?>
+			<p>
+			<script type="text/javascript">
+		$("#foto").fileinput();
 		
 		var basePath = "<?php echo Router::url('/'); ?>"
 	</script>
 	<br>
 			<div id="msg"></div>
-					</div><!-- ./wrapper -->
-			
-		
+<br>
+				
+			</p>
+		</div>
+	</div>
 		
 <?php echo $this->Html->script('jquery.min'); ?>
 <?php echo $this->Html->script('jquery-ui.min'); ?>

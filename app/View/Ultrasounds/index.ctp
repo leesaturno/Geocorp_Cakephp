@@ -6,11 +6,10 @@
 		<div class="box-header">
 			<h3 class="box-title"><?php echo __('Ultrasounds'); ?></h3>
 			<div class="box-tools pull-right">
-                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-plus"></i> New Ultrasound'), array('action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-plus"></i> Documentar nueva ecografia'), array('action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
             </div>
 		</div>	
-			<div class="box-body table-responsive">
-                <table id="Ultrasounds" class="table table-bordered table-striped">
+			<div class="box-body table-responsive"><table id="Ultrasounds" class="table table-bordered table-striped">
 					<thead>
 						<tr>
 													<th class="text-center"><?php echo $this->Paginator->sort('id'); ?></th>
@@ -47,6 +46,8 @@
 		<td class="text-center"><?php echo h($ultrasound['Ultrasound']['modified']); ?>&nbsp;</td>
 		<td class="text-center">
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $ultrasound['Ultrasound']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
+			<?php echo $this->Html->link(__('<i class="icon icon-file-pdf-o"></i>'), array('action' => 'view_pdf'), array( "target"=>"_blank", 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'pdf' )); ?>
+
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $ultrasound['Ultrasound']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
 			<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('action' => 'delete', $ultrasound['Ultrasound']['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $ultrasound['Ultrasound']['id'])); ?>
 		</td>

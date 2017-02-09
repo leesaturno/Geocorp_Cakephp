@@ -6,7 +6,7 @@
 			<div class="box-header">
 				<h3 class="box-title"><?php  echo __('Diagnostico'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $diagnostico['Diagnostico']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Editar'), array('action' => 'edit', $diagnostico['Diagnostico']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 	            </div>
 			</div>
 			
@@ -18,22 +18,22 @@
 			<?php echo h($diagnostico['Diagnostico']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Codigo'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Código'); ?></strong></td>
 		<td>
 			<?php echo h($diagnostico['Diagnostico']['codigo']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Descripcion'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Descripción'); ?></strong></td>
 		<td>
 			<?php echo h($diagnostico['Diagnostico']['descripcion']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
 		<td>
 			<?php echo h($diagnostico['Diagnostico']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
 		<td>
 			<?php echo h($diagnostico['Diagnostico']['modified']); ?>
 			&nbsp;
@@ -47,9 +47,9 @@
 					
 			<div class="box box-primary">
 				<div class="box-header">
-					<h3 class="box-title"><?php echo __('Related Informs'); ?></h3>
+					<h3 class="box-title"><?php echo __('Informes Relacionados'); ?></h3>
 					<div class="box-tools pull-right">
-						<?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Inform'), array('controller' => 'informs', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
+						<?php echo $this->Html->link('<i class="fa fa-medkit"></i> '.__('Nuevo Informe'), array('controller' => 'informs', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
 				</div>
 				<?php if (!empty($diagnostico['Inform'])): ?>
 					
@@ -86,7 +86,7 @@
 			<td class="text-center">
 				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'informs', 'action' => 'view', $inform['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'informs', 'action' => 'edit', $inform['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
-				<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'informs', 'action' => 'delete', $inform['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['id'])); ?>
+				<!--<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'informs', 'action' => 'delete', $inform['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['id'])); ?>-->
 			</td>
 		</tr>
 	<?php endforeach; ?>

@@ -4,9 +4,9 @@
 		
 		<div class="box box-primary">
 			<div class="box-header">
-				<h3 class="box-title"><?php  echo __('Country'); ?></h3>
+				<h3 class="box-title"><?php  echo __('País'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $country['Country']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Editar'), array('action' => 'edit', $country['Country']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 	            </div>
 			</div>
 			
@@ -18,17 +18,17 @@
 			<?php echo h($country['Country']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Descripcion'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Descripción'); ?></strong></td>
 		<td>
 			<?php echo h($country['Country']['descripcion']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
 		<td>
 			<?php echo h($country['Country']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
 		<td>
 			<?php echo h($country['Country']['modified']); ?>
 			&nbsp;
@@ -42,9 +42,9 @@
 					
 			<div class="box box-primary">
 				<div class="box-header">
-					<h3 class="box-title"><?php echo __('Related Patients'); ?></h3>
+					<h3 class="box-title"><?php echo __('Informes Relacionados'); ?></h3>
 					<div class="box-tools pull-right">
-						<?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Patient'), array('controller' => 'patients', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
+						<?php echo $this->Html->link('<i class="fa fa-medkit"></i> '.__('Nuevo Paciente'), array('controller' => 'patients', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
 				</div>
 				<?php if (!empty($country['Patient'])): ?>
 					
@@ -97,9 +97,9 @@
 			<td class="text-center"><?php echo $patient['created']; ?></td>
 			<td class="text-center"><?php echo $patient['modified']; ?></td>
 			<td class="text-center">
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'patients', 'action' => 'view', $patient['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'patients', 'action' => 'edit', $patient['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
-				<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'patients', 'action' => 'delete', $patient['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $patient['id'])); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'patients', 'action' => 'view', $patient['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'ver')); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'patients', 'action' => 'edit', $patient['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'editar')); ?>
+				<!--<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'patients', 'action' => 'delete', $patient['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $patient['id'])); ?>--!
 			</td>
 		</tr>
 	<?php endforeach; ?>

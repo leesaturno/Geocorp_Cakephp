@@ -63,9 +63,9 @@ class PatientsController extends AppController {
 		$municipios = $this->Patient->Municipio->find('list');
 		$parroquias = $this->Patient->Parroquia->find('list');
 		$typeBloods = $this->Patient->TypeBlood->find('list');
-		$comuns = $this->Patient->Comun->find('list');
+		
 		$ocupacions = $this->Patient->Ocupacion->find('list');
-		$this->set(compact('etnias', 'people', 'countries', 'municipios', 'parroquias', 'typeBloods', 'comuns', 'ocupacions'));
+		$this->set(compact('etnias', 'people', 'countries', 'municipios', 'parroquias', 'typeBloods', 'ocupacions'));
 	}
 
 /**
@@ -97,9 +97,9 @@ class PatientsController extends AppController {
 		$municipios = $this->Patient->Municipio->find('list');
 		$parroquias = $this->Patient->Parroquia->find('list');
 		$typeBloods = $this->Patient->TypeBlood->find('list');
-		$comuns = $this->Patient->Comun->find('list');
+		
 		$ocupacions = $this->Patient->Ocupacion->find('list');
-		$this->set(compact('etnias', 'people', 'countries', 'municipios', 'parroquias', 'typeBloods', 'comuns', 'ocupacions'));
+		$this->set(compact('etnias', 'people', 'countries', 'municipios', 'parroquias', 'typeBloods', 'ocupacions'));
 	}
 
 /**

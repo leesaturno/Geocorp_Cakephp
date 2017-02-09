@@ -161,16 +161,7 @@ class Patient extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'comun_id' => array(
-			'numeric' => array(
-				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
+
 		'ocupacion_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
@@ -233,13 +224,7 @@ class Patient extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Comun' => array(
-			'className' => 'Comun',
-			'foreignKey' => 'comun_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		),
+		
 		'Ocupacion' => array(
 			'className' => 'Ocupacion',
 			'foreignKey' => 'ocupacion_id',
@@ -255,20 +240,6 @@ class Patient extends AppModel {
  * @var array
  */
 	public $hasMany = array(
-		'Geolocation' => array(
-			'className' => 'Geolocation',
-			'foreignKey' => 'patient_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'exclusive' => '',
-			'finderQuery' => '',
-			'counterQuery' => ''
-		),
-
 		'Inform' => array(
 			'className' => 'Inform',
 			'foreignKey' => 'patient_id',

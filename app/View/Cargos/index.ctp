@@ -5,8 +5,8 @@
     <div class="box box-primary">
 		<div class="box-header">
 			<h3 class="box-title"><?php echo __('Cargos'); ?></h3>
-			<div class="box-tools pull-right">
-                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-plus"></i> '), array('action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+			<div class="box-tools pull-right">ue
+                 <?php echo $this->Html->link(__('<i class="fa fa-medkit fa-2x"></i>'), array('action' => 'add'), array('class' => 'btn btn-danger', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'Agregar')); ?>
             </div>
 		</div>	
 			<div class="box-body table-responsive">
@@ -14,9 +14,9 @@
 					<thead>
 						<tr>
 													
-													<th class="text-center"><?php echo $this->Paginator->sort('descripcion'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('descripción'); ?></th>
 													
-												<th class="text-center"><?php echo __('Actions'); ?></th>
+												<th class="text-center"><?php echo __('Acción'); ?></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -26,9 +26,9 @@
 		<td class="text-center"><?php echo h($cargo['Cargo']['descripcion']); ?>&nbsp;</td>
 
 		<td class="text-center">
-			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $cargo['Cargo']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
-			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $cargo['Cargo']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
-			<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('action' => 'delete', $cargo['Cargo']['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $cargo['Cargo']['id'])); ?>
+			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $cargo['Cargo']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'ver')); ?>
+			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $cargo['Cargo']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'editar')); ?>
+			<!--<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('action' => 'delete', $cargo['Cargo']['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $cargo['Cargo']['id'])); ?>--!
 		</td>
 	</tr>
 <?php endforeach; ?>

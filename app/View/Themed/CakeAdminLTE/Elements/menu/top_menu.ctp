@@ -1,9 +1,9 @@
 <!-- header logo: style can be found in header.less -->
         <header class="header">
-            <a href="/Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/" class="logo" width="90%" height="90%">
-                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+          <!--<a href="/" class="logo" width="90%" height="90%">
+               
             <span><?= $this->Html->image('Corposalud1.png', array('class' => 'img-circle', 'width'=>'25%', 'height'=>'60%')); ?></span>  <span style="color:#0000cc"> Corpo</span> <br>&nbsp;<span style="color:red;">&nbsp;&nbsp;&nbsp;&nbsp;Salud</span>
-            </a>
+            </a>!-->
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top" role="navigation">
                 <!-- Sidebar toggle button-->

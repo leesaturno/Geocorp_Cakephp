@@ -70,7 +70,7 @@ class Doctor extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'hospitales_id' => array(
+		'hospitale_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
@@ -119,7 +119,7 @@ class Doctor extends AppModel {
 		),
 		'Hospitales' => array(
 			'className' => 'Hospitales',
-			'foreignKey' => 'hospitales_id',
+			'foreignKey' => 'hospitale_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
@@ -131,9 +131,9 @@ class Doctor extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Profesion' => array(
-			'className' => 'Profesion',
-			'foreignKey' => 'profesion_id',
+		'Specialties' => array(
+			'className' => 'Specialties',
+			'foreignKey' => 'specialty_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

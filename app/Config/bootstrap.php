@@ -89,9 +89,11 @@ Cache::config('default', array('engine' => 'File'));
  *		array('callable' => $anotherMethod, 'on' => 'after'), // A valid PHP callback type to be called on afterDispatch
  *
  * ));
- */
+ */ 
+CakePlugin::loadAll();
 CakePlugin::load('DebugKit');
 CakePlugin::load('Upload');
+
 Configure::write('Dispatcher.filters', array(
 	'AssetDispatcher',
 	'CacheDispatcher'

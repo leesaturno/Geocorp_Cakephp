@@ -53,9 +53,7 @@
 					<div class="form-group">
 						<?php echo $this->Form->input('fun', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
-					<div class="form-group">
-						<?php echo $this->Form->input('comun_id', array('class' => 'form-control')); ?>
-					</div><!-- .form-group -->
+				
 					<div class="form-group">
 						<?php echo $this->Form->input('ocupacion_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->

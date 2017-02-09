@@ -57,9 +57,11 @@ class DoctorsController extends AppController {
 				$this->Session->setFlash(__('The doctor could not be saved. Please, try again.'), 'flash/error');
 			}
 		}
-		$people = $this->Doctor->Person->find('list');
-		
-		$this->set(compact('people'));
+		$people = $this->Doctor->Person->find('list');		
+		$hospitales = $this->Doctor->Hospitales->find('list');
+		$cargos = $this->Doctor->Cargo->find('list');
+		$specialties = $this->Doctor->Specialties->find('list');
+		$this->set(compact('people','specialties', 'hospitales', 'cargos'));
 	}
 
 /**
@@ -85,9 +87,11 @@ class DoctorsController extends AppController {
 			$options = array('conditions' => array('Doctor.' . $this->Doctor->primaryKey => $id));
 			$this->request->data = $this->Doctor->find('first', $options);
 		}
-		$people = $this->Doctor->Person->find('list');
-		
-		$this->set(compact('people'));
+		$people = $this->Doctor->Person->find('list');		
+		$hospitales = $this->Doctor->Hospitales->find('list');
+		$cargos = $this->Doctor->Cargo->find('list');
+		$specialties = $this->Doctor->Specialties->find('list');
+		$this->set(compact('people','specialties', 'hospitales', 'cargos'));
 	}
 
 /**

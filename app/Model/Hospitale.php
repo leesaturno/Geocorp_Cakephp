@@ -11,7 +11,7 @@ class Hospitale extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'municipio';
+	public $displayField = 'nombre';
 
 /**
  * Validation rules
@@ -19,7 +19,7 @@ class Hospitale extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'municipio' => array(
+		'municipio_id' => array(
 			'notBlank' => array(
 				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
@@ -39,7 +39,7 @@ class Hospitale extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'latitud' => array(
+		'localization_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
@@ -47,17 +47,6 @@ class Hospitale extends AppModel {
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-		'longitud' => array(
-			'notBlank' => array(
-				'rule' => array('notBlank'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-		),
-	);
+			
+	)));
 }

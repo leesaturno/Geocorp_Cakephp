@@ -65,8 +65,9 @@ $this->set(compact('Patient'));
 			}
 		}
 		$patients = $this->Inform->Patient->find('list');
+		$medicamentos = $this->Inform->Medicamentos->find('list');
 		$doctors = $this->Inform->Doctor->find('list');
-		$this->set(compact('patients', 'doctors'));
+		$this->set(compact('patients', 'doctors', 'medicamentos'));
 	}
 
 /**

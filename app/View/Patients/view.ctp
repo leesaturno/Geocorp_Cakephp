@@ -78,12 +78,7 @@
 			<?php echo h($patient['Patient']['fun']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Comun'); ?></strong></td>
-		<td>
-			<?php echo $this->Html->link($patient['Comun']['descripci'], array('controller' => 'comuns', 'action' => 'view', $patient['Comun']['id']), array('class' => '')); ?>
-			&nbsp;
-		</td>
-</tr><tr>		<td><strong><?php echo __('Ocupacion'); ?></strong></td>
+</tr<tr>		<td><strong><?php echo __('Ocupacion'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($patient['Ocupacion']['descripcion'], array('controller' => 'ocupacions', 'action' => 'view', $patient['Ocupacion']['id']), array('class' => '')); ?>
 			&nbsp;

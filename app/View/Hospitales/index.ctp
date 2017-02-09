@@ -16,8 +16,7 @@
 													<th class="text-center"><?php echo $this->Paginator->sort('id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('municipio'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('nombre'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('latitud'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('longitud'); ?></th>
+												
 													<th class="text-center"><?php echo $this->Paginator->sort('created'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('modified'); ?></th>
 												<th class="text-center"><?php echo __('Actions'); ?></th>
@@ -27,10 +26,10 @@
 					<?php foreach ($hospitales as $hospitale): ?>
 	<tr>
 		<td class="text-center"><?php echo h($hospitale['Hospitale']['id']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($hospitale['Hospitale']['municipio']); ?>&nbsp;</td>
+		<td class="text-center"><?php echo h($hospitale['Hospitale']['municipio_id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($hospitale['Hospitale']['nombre']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($hospitale['Hospitale']['latitud']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($hospitale['Hospitale']['longitud']); ?>&nbsp;</td>
+		<td class="text-center"><?php echo h($hospitale['Hospitale']['localization_id']); ?>&nbsp;</td>
+
 		<td class="text-center"><?php echo h($hospitale['Hospitale']['created']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($hospitale['Hospitale']['modified']); ?>&nbsp;</td>
 		<td class="text-center">

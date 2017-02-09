@@ -15,13 +15,23 @@ class UltrasoundsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Flash', 'Session');
+
+	public $components = array('Paginator', 'Flash', 'Session','RequestHandler');
 
 /**
  * index method
  *
  * @return void
  */
+public function view_pdf(){
+// increase memory limit in PHP 
+ini_set('memory_limit', '512M');
+ $ultrasound = $this->Ultrasound->find('all');
+$this->set(compact('ultrasound'));
+					 }
+		
+
+
 	public function index() {
 		$this->Ultrasound->recursive = 0;
 		$this->set('ultrasounds', $this->paginate());
