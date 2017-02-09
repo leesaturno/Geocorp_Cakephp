@@ -1,19 +1,12 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Municipio Model
+ * Localization Model
  *
  * @property Hospitale $Hospitale
  * @property Patient $Patient
  */
-class Municipio extends AppModel {
-
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'descripcion';
+class Localization extends AppModel {
 
 /**
  * Validation rules
@@ -21,9 +14,19 @@ class Municipio extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'descripcion' => array(
-			'notBlank' => array(
-				'rule' => array('notBlank'),
+		'latitud' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'longitud' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -43,7 +46,7 @@ class Municipio extends AppModel {
 	public $hasMany = array(
 		'Hospitale' => array(
 			'className' => 'Hospitale',
-			'foreignKey' => 'municipio_id',
+			'foreignKey' => 'localization_id',
 			'dependent' => false,
 			'conditions' => '',
 			'fields' => '',
@@ -56,7 +59,7 @@ class Municipio extends AppModel {
 		),
 		'Patient' => array(
 			'className' => 'Patient',
-			'foreignKey' => 'municipio_id',
+			'foreignKey' => 'localization_id',
 			'dependent' => false,
 			'conditions' => '',
 			'fields' => '',
