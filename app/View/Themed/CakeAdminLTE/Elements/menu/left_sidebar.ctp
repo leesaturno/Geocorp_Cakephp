@@ -49,7 +49,7 @@
                 </ul>
             </li>
             <li class="treeview">
-                <a href="#">
+                <a href="/ecografias">
                     <i class="icon icon-image" style="font-size:30px;color:red;"></i> <span style="font-size:20px;">Ecografias</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>

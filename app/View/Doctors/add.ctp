@@ -55,10 +55,10 @@
 					<div class="form-group">
 						<?php echo $this->Form->input('fecha_grado', ['label' => 'Fecha de Graduación' ], array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
-
+</fieldset>
 					<?php echo $this->Form->submit('Guardar', array('class' => 'btn btn-large btn-primary')); ?>
 
-				</fieldset>
+				
 
 						<?php echo $this->Form->end(); ?>
 

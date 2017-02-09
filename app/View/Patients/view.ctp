@@ -4,9 +4,9 @@
 		
 		<div class="box box-primary">
 			<div class="box-header">
-				<h3 class="box-title"><?php  echo __('Patient'); ?></h3>
+				<h3 class="box-title"><?php  echo __('Paciente'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $patient['Patient']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Editar'), array('action' => 'edit', $patient['Patient']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 	            </div>
 			</div>
 			
@@ -18,37 +18,37 @@
 			<?php echo $this->Html->link($patient['Etnia']['descripcion'], array('controller' => 'etnias', 'action' => 'view', $patient['Etnia']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Person'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Persona'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($patient['Person']['nacionalidad'], array('controller' => 'people', 'action' => 'view', $patient['Person']['id']), array('class' => '')); ?>
+			<?php echo $this->Html->link($patient['Person']['name'], array('controller' => 'people', 'action' => 'view', $patient['Person']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Urbanizacion Res'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Urbanización/Residencia'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['urbanizacion_res']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Avenida Res'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Avenida/Calle'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['avenida_res']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Casa Res'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Casa'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['casa_res']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Piso Res'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Piso'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['piso_res']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Tiempo Residencia'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Tiempo de Residencia'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['tiempo_residencia']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Country'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('País'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($patient['Country']['descripcion'], array('controller' => 'countries', 'action' => 'view', $patient['Country']['id']), array('class' => '')); ?>
 			&nbsp;
@@ -63,32 +63,32 @@
 			<?php echo $this->Html->link($patient['Parroquia']['descripcion'], array('controller' => 'parroquias', 'action' => 'view', $patient['Parroquia']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Type Blood'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Tipo de Sangre'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($patient['TypeBlood']['descripcion'], array('controller' => 'type_bloods', 'action' => 'view', $patient['TypeBlood']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Fpp'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Fecha probable de parto'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['fpp']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Fun'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Fecha de última menstruación'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['fun']); ?>
 			&nbsp;
 		</td>
-</tr<tr>		<td><strong><?php echo __('Ocupacion'); ?></strong></td>
+</tr<tr>		<td><strong><?php echo __('Ocupación'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($patient['Ocupacion']['descripcion'], array('controller' => 'ocupacions', 'action' => 'view', $patient['Ocupacion']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
 		<td>
 			<?php echo h($patient['Patient']['modified']); ?>
 			&nbsp;
@@ -165,7 +165,7 @@
 							<thead>
 								<tr>
 											<th class="text-center"><?php echo __('Id'); ?></th>
-		<th class="text-center"><?php echo __('Anos Aprobados'); ?></th>
+		
 		<th class="text-center"><?php echo __('Numero Hijo'); ?></th>
 		<th class="text-center"><?php echo __('Situacion Conyugal Id'); ?></th>
 		<th class="text-center"><?php echo __('Analfabeta'); ?></th>
@@ -185,7 +185,7 @@
 										foreach ($patient['History'] as $history): ?>
 		<tr>
 			<td class="text-center"><?php echo $history['id']; ?></td>
-			<td class="text-center"><?php echo $history['anos_aprobados']; ?></td>
+		
 			<td class="text-center"><?php echo $history['numero_hijo']; ?></td>
 			<td class="text-center"><?php echo $history['situacion_conyugal_id']; ?></td>
 			<td class="text-center"><?php echo $history['analfabeta']; ?></td>
@@ -285,16 +285,16 @@
 											<th class="text-center"><?php echo __('Id'); ?></th>
 		<th class="text-center"><?php echo __('Fecha'); ?></th>
 		<th class="text-center"><?php echo __('Semanas'); ?></th>
-		<th class="text-center"><?php echo __('Photo'); ?></th>
-		<th class="text-center"><?php echo __('Photo Dir'); ?></th>
-		<th class="text-center"><?php echo __('Descripcion'); ?></th>
+		<th class="text-center"><?php echo __('Foto'); ?></th>
+		<!--<th class="text-center"><?php echo __('Foto Dir'); ?></th>-->
+		<th class="text-center"><?php echo __('Descripción'); ?></th>
 		<th class="text-center"><?php echo __('Doctor'); ?></th>
 		<th class="text-center"><?php echo __('Conclusiones'); ?></th>
-		<th class="text-center"><?php echo __('Type Ultrasound Id'); ?></th>
-		<th class="text-center"><?php echo __('Patient Id'); ?></th>
-		<th class="text-center"><?php echo __('Created'); ?></th>
-		<th class="text-center"><?php echo __('Modified'); ?></th>
-									<th class="text-center"><?php echo __('Actions'); ?></th>
+		<th class="text-center"><?php echo __('Tipo de ultrasonido'); ?></th>
+		<th class="text-center"><?php echo __('Paciente'); ?></th>
+		<th class="text-center"><?php echo __('Creado'); ?></th>
+		<th class="text-center"><?php echo __('Modificado'); ?></th>
+									<th class="text-center"><?php echo __('Acción'); ?></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -306,7 +306,7 @@
 			<td class="text-center"><?php echo $ultrasound['fecha']; ?></td>
 			<td class="text-center"><?php echo $ultrasound['semanas']; ?></td>
 			<td class="text-center"><?php echo $ultrasound['photo']; ?></td>
-			<td class="text-center"><?php echo $ultrasound['photo_dir']; ?></td>
+			<!--<td class="text-center"><?php echo $ultrasound['photo_dir']; ?></td>-->
 			<td class="text-center"><?php echo $ultrasound['descripcion']; ?></td>
 			<td class="text-center"><?php echo $ultrasound['doctor']; ?></td>
 			<td class="text-center"><?php echo $ultrasound['conclusiones']; ?></td>
@@ -315,9 +315,9 @@
 			<td class="text-center"><?php echo $ultrasound['created']; ?></td>
 			<td class="text-center"><?php echo $ultrasound['modified']; ?></td>
 			<td class="text-center">
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'ultrasounds', 'action' => 'view', $ultrasound['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'ultrasounds', 'action' => 'edit', $ultrasound['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
-				<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'ultrasounds', 'action' => 'delete', $ultrasound['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $ultrasound['id'])); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'ultrasounds', 'action' => 'view', $ultrasound['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'ver')); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'ultrasounds', 'action' => 'edit', $ultrasound['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'editar')); ?>
+				<!--<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'ultrasounds', 'action' => 'delete', $ultrasound['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $ultrasound['id'])); ?>-->
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -336,3 +336,4 @@
 
 </div><!-- /#page-container .row-fluid -->
 
+ 

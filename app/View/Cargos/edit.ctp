@@ -15,12 +15,12 @@
 						<?php echo $this->Form->input('id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">
-						<?php echo $this->Form->input('descripción', array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('descripcion', ['label' => 'Descripción' ], array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+	</fieldset>					
+				<?php echo $this->Form->submit('Guardar', array('class' => 'btn btn-large btn-primary')); ?>
 
-					<?php echo $this->Form->submit('Guardar', array('class' => 'btn btn-large btn-primary')); ?>
-
-				</fieldset>
+			
 
 						<?php echo $this->Form->end(); ?>
 

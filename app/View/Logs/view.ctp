@@ -4,9 +4,9 @@
 		
 		<div class="box box-primary">
 			<div class="box-header">
-				<h3 class="box-title"><?php  echo __('Log'); ?></h3>
+				<h3 class="box-title"><?php  echo __('Bitácora'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $log['Log']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	               
 	            </div>
 			</div>
 			
@@ -18,27 +18,27 @@
 			<?php echo h($log['Log']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Accion'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Acción'); ?></strong></td>
 		<td>
 			<?php echo h($log['Log']['accion']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Descripcion'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Descripción'); ?></strong></td>
 		<td>
 			<?php echo h($log['Log']['descripcion']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('User'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Usuario'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($log['User']['email'], array('controller' => 'users', 'action' => 'view', $log['User']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
 		<td>
 			<?php echo h($log['Log']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
 		<td>
 			<?php echo h($log['Log']['modified']); ?>
 			&nbsp;

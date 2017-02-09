@@ -15,7 +15,7 @@ class HistoriesController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Flash', 'Session');
+	public $components = array('Paginator', 'Flash', 'Session','RequestHandler');
 
 /**
  * index method
@@ -48,13 +48,24 @@ class HistoriesController extends AppController {
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
+		
+		$this->loadModel('Patient');
+			if ($this->request->is('post')) {
+              $Lastone = $this->Person->find('first', array('order' => array('Patient.created' => 'desc')));
+
+             }else{
+              $Lastone = $this->Patient->find('first', array('conditions' => array('Patient.id' => $this->request->data['Patient']['id'])));
+
+             }
+    
+             $this->request->data['history']['patient_id'] = $Lastone['Patient']['id'];
+	
 			$this->History->create();
 			if ($this->History->save($this->request->data)) {
-				$this->Session->setFlash(__('The history has been saved'), 'flash/success');
+				$this->Session->setFlash(__('Historia Registrada'), 'flash/success');
 				$this->redirect(array('action' => 'index'));
 			} else {
-				$this->Session->setFlash(__('The history could not be saved. Please, try again.'), 'flash/error');
+				$this->Session->setFlash(__('No se pudo registrar la historia, try again.'), 'flash/error');
 			}
 		}
 		$patients = $this->History->Patient->find('list', array('fields'=>array('id', 'person_id')));

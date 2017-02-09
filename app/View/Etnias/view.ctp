@@ -42,7 +42,7 @@
 					
 			<div class="box box-primary">
 				<div class="box-header">
-					<h3 class="box-title"><?php echo __('Informes Relacionados'); ?></h3>
+					<h3 class="box-title"><?php echo __('Pacientes Relacionados'); ?></h3>
 					<div class="box-tools pull-right">
 						<?php echo $this->Html->link('<i class="fa fa-medkit"></i> '.__('Nuevo Paciente'), array('controller' => 'patients', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
 				</div>

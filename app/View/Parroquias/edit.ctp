@@ -1,9 +1,9 @@
 
 <div class="row">
-    <div class="col-xs-6 col-xs-offset-3">
+    <div class="col-xs-12">
 		<div class="box box-primary">
 			<div class="box-header">
-			<h3 class="box-title"><?php echo __('Edit Parroquia'); ?></h3>
+			<h3 class="box-title"><?php echo __('Editar Parroquia'); ?></h3>
 			</div>
 			<div class="box-body table-responsive">
 		
@@ -15,12 +15,12 @@
 						<?php echo $this->Form->input('id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">
-						<?php echo $this->Form->input('descripcion', array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('descripcion', ['label' => 'Descripción' ], array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
+	</fieldset>
+					<?php echo $this->Form->submit('Guardar', array('class' => 'btn btn-large btn-primary')); ?>
 
-					<?php echo $this->Form->submit('Submit', array('class' => 'btn btn-large btn-primary')); ?>
-
-				</fieldset>
+			
 
 						<?php echo $this->Form->end(); ?>
 

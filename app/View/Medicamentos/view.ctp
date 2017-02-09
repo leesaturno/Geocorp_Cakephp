@@ -18,17 +18,17 @@
 			<?php echo h($medicamento['Medicamento']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Descripcion'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Descripción'); ?></strong></td>
 		<td>
 			<?php echo h($medicamento['Medicamento']['descripcion']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
 		<td>
 			<?php echo h($medicamento['Medicamento']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
 		<td>
 			<?php echo h($medicamento['Medicamento']['modified']); ?>
 			&nbsp;
@@ -42,7 +42,7 @@
 					
 			<div class="box box-primary">
 				<div class="box-header">
-					<h3 class="box-title"><?php echo __('Related Informs'); ?></h3>
+					<h3 class="box-title"><?php echo __('Informes Relacionados'); ?></h3>
 					<div class="box-tools pull-right">
 						<?php echo $this->Html->link('<i class="glyphicon glyphicon-plus"></i> '.__('New Inform'), array('controller' => 'informs', 'action' => 'add'), array('class' => 'btn btn-primary', 'escape' => false)); ?>					</div><!-- /.actions -->
 				</div>
@@ -54,14 +54,14 @@
 								<tr>
 											<th class="text-center"><?php echo __('Id'); ?></th>
 		<th class="text-center"><?php echo __('Indicaciones'); ?></th>
-		<th class="text-center"><?php echo __('Medicamento Id'); ?></th>
-		<th class="text-center"><?php echo __('Diagnostico Id'); ?></th>
+		<th class="text-center"><?php echo __('Medicamento'); ?></th>
+		<th class="text-center"><?php echo __('Diagnóstico'); ?></th>
 		<th class="text-center"><?php echo __('Conclusiones'); ?></th>
-		<th class="text-center"><?php echo __('Patient Id'); ?></th>
-		<th class="text-center"><?php echo __('Doctor Id'); ?></th>
-		<th class="text-center"><?php echo __('Created'); ?></th>
-		<th class="text-center"><?php echo __('Modified'); ?></th>
-									<th class="text-center"><?php echo __('Actions'); ?></th>
+		<th class="text-center"><?php echo __('Paciente'); ?></th>
+		<th class="text-center"><?php echo __('Doctor'); ?></th>
+		<th class="text-center"><?php echo __('Creado'); ?></th>
+		<th class="text-center"><?php echo __('Modificado'); ?></th>
+									<th class="text-center"><?php echo __('Acción'); ?></th>
 								</tr>
 							</thead>
 							<tbody>
@@ -79,9 +79,9 @@
 			<td class="text-center"><?php echo $inform['created']; ?></td>
 			<td class="text-center"><?php echo $inform['modified']; ?></td>
 			<td class="text-center">
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'informs', 'action' => 'view', $inform['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
-				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'informs', 'action' => 'edit', $inform['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
-				<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'informs', 'action' => 'delete', $inform['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['id'])); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('controller' => 'informs', 'action' => 'view', $inform['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'ver')); ?>
+				<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('controller' => 'informs', 'action' => 'edit', $inform['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'editar')); ?>
+				<!--<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('controller' => 'informs', 'action' => 'delete', $inform['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['id'])); ?>-->
 			</td>
 		</tr>
 	<?php endforeach; ?>
