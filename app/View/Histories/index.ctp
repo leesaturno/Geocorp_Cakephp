@@ -42,14 +42,15 @@
 		<td class="text-center">
 			<?php echo $this->Html->link($history['Patient']['person_id'], array('controller' => 'patients', 'action' => 'view', $history['Patient']['id'])); ?>
 		</td>
-		<td class="text-center"><?php echo h($history['History']['created']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($history['History']['modified']); ?>&nbsp;</td>
+		
 		<td class="text-center">
 			<?php echo $this->Html->link($history['Doctor']['cod_sanitarios'], array('controller' => 'doctors', 'action' => 'view', $history['Doctor']['id'])); ?>
 		</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($history['Question']['id'], array('controller' => 'questions', 'action' => 'view', $history['Question']['id'])); ?>
 		</td>
+		<td class="text-center"><?php echo h($history['History']['created']); ?>&nbsp;</td>
+		<td class="text-center"><?php echo h($history['History']['modified']); ?>&nbsp;</td>
 		<td class="text-center">
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $history['History']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'ver')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $history['History']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'editar')); ?>

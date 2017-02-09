@@ -57,10 +57,10 @@ class DoctorsController extends AppController {
 				$this->Session->setFlash(__('The doctor could not be saved. Please, try again.'), 'flash/error');
 			}
 		}
-		$people = $this->Doctor->Person->find('list');		
-		$hospitales = $this->Doctor->Hospitales->find('list');
-		$cargos = $this->Doctor->Cargo->find('list');
-		$specialties = $this->Doctor->Specialties->find('list');
+		$people = $this->Doctor->Person->find('list', array('fields'=>array('id', 'name')));		
+		$hospitales = $this->Doctor->Hospitales->find('list', array('fields'=>array('id', 'nombre')));
+		$cargos = $this->Doctor->Cargo->find('list', array('fields'=>array('id', 'descripcion')));
+		$specialties = $this->Doctor->Specialties->find('list', array('fields'=>array('id', 'descripcion')));
 		$this->set(compact('people','specialties', 'hospitales', 'cargos'));
 	}
 

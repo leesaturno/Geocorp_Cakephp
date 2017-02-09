@@ -28,19 +28,19 @@
 					<?php foreach ($doctors as $doctor): ?>
 	<tr>
 		<td class="text-center">
-			<?php echo $this->Html->link($doctor['Person']['cedula'], array('controller' => 'people', 'action' => 'view', $doctor['Person']['id'])); ?>
+			<?php echo $this->Html->link($doctor['Person']['name'], array('controller' => 'people', 'action' => 'view', $doctor['Person']['id'])); ?>
 		</td>
 		<td class="text-center"><?php echo h($doctor['Doctor']['cod_sanitarios']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($doctor['Doctor']['sexo']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($doctor['Doctor']['status']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($doctor['Hospitales']['id'], array('controller' => 'hospitales', 'action' => 'view', $doctor['Hospitales']['id'])); ?>
+			<?php echo $this->Html->link($doctor['Hospitales']['nombre'], array('controller' => 'hospitales', 'action' => 'view', $doctor['Hospitales']['id'])); ?>
 		</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($doctor['Cargo']['id'], array('controller' => 'cargos', 'action' => 'view', $doctor['Cargo']['id'])); ?>
+			<?php echo $this->Html->link($doctor['Cargo']['descripcion'], array('controller' => 'cargos', 'action' => 'view', $doctor['Cargo']['id'])); ?>
 		</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($doctor['Specialties']['id'], array('controller' => 'specialties', 'action' => 'view', $doctor['Specialties']['id'])); ?>
+			<?php echo $this->Html->link($doctor['Specialties']['descripcion'], array('controller' => 'specialties', 'action' => 'view', $doctor['Specialties']['id'])); ?>
 		</td>
 		<td class="text-center"><?php echo h($doctor['Doctor']['fecha_grado']); ?>&nbsp;</td>
 		<td class="text-center">

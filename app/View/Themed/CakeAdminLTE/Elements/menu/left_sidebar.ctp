@@ -5,18 +5,18 @@
     <section class="sidebar">
         <!-- Sidebar user panel -->
         <div class="">
-           
+           <span><?= $this->Html->image('Corposalud.png', array('class' => '', 'width'=>'100%', 'height'=>'100%')); ?></span>
             
         </div>
         <!-- search form -->
        
-        <!-- /.search form --> <br><br><br><br>
+        <!-- /.search form --> <br>
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
             <li class="treeview">
                 <a href="#">
-                    <i class="icon icon-pregnant_woman" style="font-size:40px;color:red;"></i>
-                    <span style="font-size:20px;">Patientes</span>
+                    <i class="icon icon-pregnant_woman" style="font-size:30px;color:red;"></i>
+                    <span style="font-size:20px;">Pacientes</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
@@ -28,7 +28,7 @@
             <?php if ($current_user['rols_id']==1): ?>      
             <li class="treeview">
                 <a href="#">
-                    <i class="icon icon-user-md" style="font-size:35px;color:red;"></i>
+                    <i class="icon icon-user-md" style="font-size:30px;color:red;"></i>
                     <span style="font-size:20px;">Doctores</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
@@ -39,7 +39,7 @@
             </li> </a><?php endif; ?>
             <li class="treeview">
                 <a href="#">
-                    <i class="icon icon-profile" style="font-size:35px;color:red;"></i>
+                    <i class="icon icon-profile" style="font-size:30px;color:red;"></i>
                     <span style="font-size:20px;">Informes</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
@@ -50,12 +50,12 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="icon icon-image" style="font-size:35px;color:red;"></i> <span style="font-size:20px;">Ecografias</span>
+                    <i class="icon icon-image" style="font-size:30px;color:red;"></i> <span style="font-size:20px;">Ecografias</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
                   <li><?php echo $this->Html->link(__('<i class="icon icon-list-numbered"></i>Lista de Ecografias'), array('controller'=>'ultrasounds','action' => 'index'), array('class' => 'btn btn-default', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>
-                     <li><?php echo $this->Html->link(__('<i class="icon icon-user-plus"></i>Nuevo'), array('controller'=>'ultrasounds','action' => 'add'), array('class' => 'btn btn-primary', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>  
+                     <li><?php echo $this->Html->link(__('<i class="icon icon-plus"></i>Nuevo'), array('controller'=>'ultrasounds','action' => 'add'), array('class' => 'btn btn-primary', 'style'=>'color:#000;font-size:18px;','escape' => false)); ?></li>  
                                 
                 </ul>
             </li>

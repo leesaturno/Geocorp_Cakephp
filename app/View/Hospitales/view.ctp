@@ -20,7 +20,7 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Municipio'); ?></strong></td>
 		<td>
-			<?php echo h($hospitale['Hospitale']['municipio']); ?>
+			<?php echo h($hospitale['Hospitale']['municipio_id']); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Nombre'); ?></strong></td>
@@ -28,15 +28,12 @@
 			<?php echo h($hospitale['Hospitale']['nombre']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Latitud'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Localizacion'); ?></strong></td>
 		<td>
-			<?php echo h($hospitale['Hospitale']['latitud']); ?>
+			<?php echo h($hospitale['Hospitale']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Longitud'); ?></strong></td>
-		<td>
-			<?php echo h($hospitale['Hospitale']['longitud']); ?>
-			&nbsp;
+</tr>
 		</td>
 </tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
 		<td>

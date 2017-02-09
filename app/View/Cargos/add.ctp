@@ -1,6 +1,6 @@
 
 <div class="row">
-    <div class="col-xs-6 col-xs-offset-3">
+    <div class="col-xs-12">
 		<div class="box box-primary">
 			<div class="box-header">
 			<h3 class="box-title"><?php echo __('Agregar Cargo'); ?></h3>
@@ -10,9 +10,10 @@
 			<?php echo $this->Form->create('Cargo', array('role' => 'form')); ?>
 
 				<fieldset>
-
+<div class="col-md-3">
 										<div class="form-group">
 						<?php echo $this->Form->input('descripción', array('class' => 'form-control')); ?>
+					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 
 					<?php echo $this->Form->submit('Guardar', array('class' => 'btn btn-large btn-primary')); ?>

@@ -13,7 +13,11 @@ class Person extends AppModel {
  * Display field
  *
  * @var string
+ 
  */
+	public $virtualFields = array(
+    'name' => 'CONCAT("(",Person.cedula,") ",Person.nombre, " ", Person.nombre2, " ", Person.apellido," ",Person.apellido2)'
+); 
 	public $displayField = 'cedula';
 
 /**

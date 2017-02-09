@@ -1,9 +1,9 @@
 <!-- header logo: style can be found in header.less -->
         <header class="header">
-          <!--<a href="/" class="logo" width="90%" height="90%">
+          <a href="/" class="logo" width="90%" height="90%">
                
-            <span><?= $this->Html->image('Corposalud1.png', array('class' => 'img-circle', 'width'=>'25%', 'height'=>'60%')); ?></span>  <span style="color:#0000cc"> Corpo</span> <br>&nbsp;<span style="color:red;">&nbsp;&nbsp;&nbsp;&nbsp;Salud</span>
-            </a>!-->
+            <span style="color:#0000cc">Ge<span style="color:gray;">o</span><span style="color:#0000cc;">C</span><span style="color:red;">o</span><span style="color:#0000cc;">rp</span>
+            </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top" role="navigation">
                 <!-- Sidebar toggle button-->

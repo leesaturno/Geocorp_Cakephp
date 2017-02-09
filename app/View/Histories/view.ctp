@@ -4,9 +4,9 @@
 		
 		<div class="box box-primary">
 			<div class="box-header">
-				<h3 class="box-title"><?php  echo __('History'); ?></h3>
+				<h3 class="box-title"><?php  echo __('Historias'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $history['History']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Editar'), array('action' => 'edit', $history['History']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 	            </div>
 			</div>
 			
@@ -18,17 +18,13 @@
 			<?php echo h($history['History']['id']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Anos Aprobados'); ?></strong></td>
-		<td>
-			<?php echo h($history['History']['anos_aprobados']); ?>
-			&nbsp;
-		</td>
-</tr><tr>		<td><strong><?php echo __('Numero Hijo'); ?></strong></td>
+
+</tr><tr>		<td><strong><?php echo __('Número de Hijos'); ?></strong></td>
 		<td>
 			<?php echo h($history['History']['numero_hijo']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Situacion Conyugal Id'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Situación Conyugal'); ?></strong></td>
 		<td>
 			<?php echo h($history['History']['situacion_conyugal_id']); ?>
 			&nbsp;
@@ -38,7 +34,7 @@
 			<?php echo h($history['History']['analfabeta']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Nivel Educativo Id'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Nivel de instrucción'); ?></strong></td>
 		<td>
 			<?php echo h($history['History']['nivel_educativo_id']); ?>
 			&nbsp;
@@ -48,19 +44,9 @@
 			<?php echo h($history['History']['observaciones']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Patient'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Paciente'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($history['Patient']['person_id'], array('controller' => 'patients', 'action' => 'view', $history['Patient']['id']), array('class' => '')); ?>
-			&nbsp;
-		</td>
-</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
-		<td>
-			<?php echo h($history['History']['created']); ?>
-			&nbsp;
-		</td>
-</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
-		<td>
-			<?php echo h($history['History']['modified']); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Doctor'); ?></strong></td>
@@ -68,12 +54,23 @@
 			<?php echo $this->Html->link($history['Doctor']['cod_sanitarios'], array('controller' => 'doctors', 'action' => 'view', $history['Doctor']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Question'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Preguntas'); ?></strong></td>
 		<td>
 			<?php echo $this->Html->link($history['Question']['id'], array('controller' => 'questions', 'action' => 'view', $history['Question']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr>					</tbody>
+</tr>	
+									<tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
+		<td>
+			<?php echo h($history['History']['created']); ?>
+			&nbsp;
+		</td>
+</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
+		<td>
+			<?php echo h($history['History']['modified']); ?>
+			&nbsp;
+		</td>
+</tr></tbody>
 				</table><!-- /.table table-striped table-bordered -->
 			</div><!-- /.table-responsive -->
 			

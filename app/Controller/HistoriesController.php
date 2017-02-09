@@ -57,10 +57,12 @@ class HistoriesController extends AppController {
 				$this->Session->setFlash(__('The history could not be saved. Please, try again.'), 'flash/error');
 			}
 		}
-		$patients = $this->History->Patient->find('list');
-		$questions = $this->History->Question->find('list');
+		$patients = $this->History->Patient->find('list', array('fields'=>array('id', 'person_id')));
+		$situacionConyugals = $this->History->SituacionConyugal->find('list');
+		$nivelEducativos = $this->History->NivelEducativo->find('list');
 		$doctors = $this->History->Doctor->find('list');
-		$this->set(compact('patients', 'questions', 'doctors'));
+		$questions = $this->History->Question->find('list');
+		$this->set(compact('patients', 'situacionConyugals', 'nivelEducativos', 'doctors', 'questions'));
 	}
 
 /**
@@ -87,9 +89,11 @@ class HistoriesController extends AppController {
 			$this->request->data = $this->History->find('first', $options);
 		}
 		$patients = $this->History->Patient->find('list');
-		$questions = $this->History->Question->find('list');
+		$situacionConyugals = $this->History->SituacionConyugal->find('list');
+		$nivelEducativos = $this->History->NivelEducativo->find('list');
 		$doctors = $this->History->Doctor->find('list');
-		$this->set(compact('patients', 'questions', 'doctors'));
+		$questions = $this->History->Question->find('list');
+		$this->set(compact('patients', 'situacionConyugals', 'nivelEducativos', 'doctors', 'questions'));
 	}
 
 /**

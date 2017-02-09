@@ -16,6 +16,7 @@ class Doctor extends AppModel {
  *
  * @var string
  */
+	
 	public $displayField = 'cod_sanitarios';
 
 /**
@@ -27,14 +28,6 @@ class Doctor extends AppModel {
 		'cod_sanitarios' => array(
 			'notBlank' => array(
 				'rule' => array('notBlank'),
-				//'message' => 'Your custom message here',
-				//'allowEmpty' => false,
-				//'required' => false,
-				//'last' => false, // Stop validation after this rule
-				//'on' => 'create', // Limit validation to 'create' or 'update' operations
-			),
-			'n' => array(
-				'rule' => array('n'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,

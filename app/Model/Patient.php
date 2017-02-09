@@ -23,7 +23,8 @@ class Patient extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'person_id';
+	
+	public $displayField = '';
 
 /**
  * Validation rules

@@ -4,17 +4,12 @@ App::uses('AppModel', 'Model');
  * History Model
  *
  * @property Patient $Patient
- * @property Question $Question
+ * @property SituacionConyugal $SituacionConyugal
+ * @property NivelEducativo $NivelEducativo
  * @property Doctor $Doctor
+ * @property Question $Question
  */
 class History extends AppModel {
-
-/**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'observaciones';
 
 /**
  * Validation rules
@@ -32,7 +27,45 @@ class History extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'question_id' => array(
+		'numero_hijo' => array(
+			'notBlank' => array(
+				'rule' => array('notBlank'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'situacion_conyugal_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'analfabeta' => array(
+			'notBlank' => array(
+				'rule' => array('notBlank'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'nivel_educativo_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
@@ -43,6 +76,16 @@ class History extends AppModel {
 			),
 		),
 		'doctor_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'question_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
@@ -69,9 +112,16 @@ class History extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Question' => array(
-			'className' => 'Question',
-			'foreignKey' => 'question_id',
+		'SituacionConyugal' => array(
+			'className' => 'SituacionConyugal',
+			'foreignKey' => 'situacion_conyugal_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'NivelEducativo' => array(
+			'className' => 'NivelEducativo',
+			'foreignKey' => 'nivel_educativo_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
@@ -79,6 +129,13 @@ class History extends AppModel {
 		'Doctor' => array(
 			'className' => 'Doctor',
 			'foreignKey' => 'doctor_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'Question' => array(
+			'className' => 'Question',
+			'foreignKey' => 'question_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

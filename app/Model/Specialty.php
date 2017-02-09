@@ -11,6 +11,9 @@ class Specialty extends AppModel {
  *
  * @var string
  */
+	public $virtualField(){
+		  'name' => 'CONCAT(Specialty.descripcion)'
+	}
 	public $displayField = 'descripcion';
 
 /**
@@ -20,8 +23,8 @@ class Specialty extends AppModel {
  */
 	public $validate = array(
 		'descripcion' => array(
-			'postal' => array(
-				'rule' => array('postal'),
+			'notBlank' => array(
+				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
