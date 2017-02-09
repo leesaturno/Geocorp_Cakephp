@@ -1,8 +1,8 @@
 <?php
 /**
- * Municipio Fixture
+ * Localization Fixture
  */
-class MunicipioFixture extends CakeTestFixture {
+class LocalizationFixture extends CakeTestFixture {
 
 /**
  * Fields
@@ -11,7 +11,8 @@ class MunicipioFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'primary'),
-		'descripcion' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 100, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'latitud' => array('type' => 'float', 'null' => false, 'default' => null, 'unsigned' => false),
+		'longitud' => array('type' => 'float', 'null' => false, 'default' => null, 'unsigned' => false),
 		'created' => array('type' => 'datetime', 'null' => false, 'default' => null),
 		'modified' => array('type' => 'datetime', 'null' => false, 'default' => null),
 		'indexes' => array(
@@ -28,9 +29,10 @@ class MunicipioFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'descripcion' => 'Lorem ipsum dolor sit amet',
-			'created' => '2017-02-09 01:09:53',
-			'modified' => '2017-02-09 01:09:53'
+			'latitud' => 1,
+			'longitud' => 1,
+			'created' => '2017-02-09 00:59:14',
+			'modified' => '2017-02-09 00:59:14'
 		),
 	);
 

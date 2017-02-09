@@ -1,10 +1,10 @@
 <?php
-App::uses('Municipio', 'Model');
+App::uses('Localization', 'Model');
 
 /**
- * Municipio Test Case
+ * Localization Test Case
  */
-class MunicipioTest extends CakeTestCase {
+class LocalizationTest extends CakeTestCase {
 
 /**
  * Fixtures
@@ -12,7 +12,8 @@ class MunicipioTest extends CakeTestCase {
  * @var array
  */
 	public $fixtures = array(
-		'app.municipio',
+		'app.localization',
+		'app.hospitale',
 		'app.patient',
 		'app.etnia',
 		'app.person',
@@ -24,6 +25,7 @@ class MunicipioTest extends CakeTestCase {
 		'app.inform',
 		'app.medicamentos',
 		'app.country',
+		'app.municipio',
 		'app.parroquia',
 		'app.type_blood',
 		'app.history',
@@ -39,7 +41,7 @@ class MunicipioTest extends CakeTestCase {
  */
 	public function setUp() {
 		parent::setUp();
-		$this->Municipio = ClassRegistry::init('Municipio');
+		$this->Localization = ClassRegistry::init('Localization');
 	}
 
 /**
@@ -48,7 +50,7 @@ class MunicipioTest extends CakeTestCase {
  * @return void
  */
 	public function tearDown() {
-		unset($this->Municipio);
+		unset($this->Localization);
 
 		parent::tearDown();
 	}
