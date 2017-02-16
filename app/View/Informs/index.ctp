@@ -31,7 +31,7 @@
 		<td class="text-center"><?php echo h($inform['Inform']['id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['indicaciones']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($inform['Medicament']['descripcion'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id'])); ?>
+			<?php echo $this->Html->link($inform['Medicament']['id'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id'])); ?>
 		</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($inform['Diagnostico']['codigo'], array('controller' => 'diagnosticos', 'action' => 'view', $inform['Diagnostico']['id'])); ?>

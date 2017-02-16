@@ -13024,6 +13024,7 @@ Stack Trace:
 #3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+<<<<<<< HEAD
 2017-02-16 20:05:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
 Request URL: /Geocorp_Cakephp_2.7-/informs
 Stack Trace:
@@ -13041,4 +13042,131 @@ Stack Trace:
 #11 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
 #12 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
 #13 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+=======
+2017-02-16 15:05:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Inform`...', Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Inform`...', Array, Array)
+#3 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Inform`...', false)
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Inform), Array)
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/cabox/workspace/app/Controller/InformsController.php(27): Controller->paginate()
+#9 [internal function]: InformsController->index()
+#10 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#11 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-16 15:06:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Inform`...', Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Inform`...', Array, Array)
+#3 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Inform`...', false)
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Inform), Array)
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/cabox/workspace/app/Controller/InformsController.php(27): Controller->paginate()
+#9 [internal function]: InformsController->index()
+#10 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#11 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-16 15:06:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Inform`...', Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Inform`...', Array, Array)
+#3 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Inform`...', false)
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Inform), Array)
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/cabox/workspace/app/Controller/InformsController.php(27): Controller->paginate()
+#9 [internal function]: InformsController->index()
+#10 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#11 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-16 15:06:49 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Inform`...', Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Inform`...', Array, Array)
+#3 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Inform`...', false)
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Inform), Array)
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/cabox/workspace/app/Controller/InformsController.php(27): Controller->paginate()
+#9 [internal function]: InformsController->index()
+#10 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#11 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-16 15:07:46 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Inform`...', Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Inform`...', Array, Array)
+#3 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Inform`...', false)
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Inform), Array)
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/cabox/workspace/app/Controller/InformsController.php(27): Controller->paginate()
+#9 [internal function]: InformsController->index()
+#10 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#11 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-16 15:08:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Inform`...', Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Inform`...', Array, Array)
+#3 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Inform`...', false)
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Inform), Array)
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/cabox/workspace/app/Controller/InformsController.php(27): Controller->paginate()
+#9 [internal function]: InformsController->index()
+#10 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#11 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2017-02-16 15:11:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'descripcion' in field list is ambiguous
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Inform`...', Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Inform`...', Array, Array)
+#3 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(1118): DboSource->fetchAll('SELECT `Inform`...', false)
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3031): DboSource->read(Object(Inform), Array)
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#6 /home/cabox/workspace/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/cabox/workspace/lib/Cake/Controller/Controller.php(1086): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /home/cabox/workspace/app/Controller/InformsController.php(27): Controller->paginate()
+#9 [internal function]: InformsController->index()
+#10 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#11 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#13 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+>>>>>>> 83c283d9918738e9e5c1f3a660c61c1c0fa314b0
 #14 {main}
