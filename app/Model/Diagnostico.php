@@ -15,7 +15,7 @@ class Diagnostico extends AppModel {
 		public $virtualFields = array(
     'name' => 'descripcion'
 ); 
-	public $displayField = 'codigo';
+	public $displayField = 'descripcion';
 
 /**
  * Validation rules
