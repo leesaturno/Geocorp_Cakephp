@@ -29,10 +29,10 @@
 					<tbody>
 					<?php foreach ($informs as $inform): ?>
 	<tr>
-		<?php echo $oh= $inform['Medicamento']['descripcion'];?>
+		<?php echo $oh= $inform['Medicament']['descripcion'];?>
 		<td class="text-center"><?php echo h($inform['Inform']['id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['indicaciones']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($inform['Inform']['medicamento_id']); ?>&nbsp;</td>
+		<td class="text-center"><?php echo h($inform['Inform']['medicament_id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['diagnostico_id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['conclusiones']); ?>&nbsp;</td>
 		<td class="text-center">

@@ -69,7 +69,7 @@ class InformsController extends AppController {
 			}
 		}
 		$patients = $this->Inform->Patient->find('list');
-		$medicamentos = $this->Inform->Medicamento->find('list');
+		$medicamentos = $this->Inform->Medicament->find('list');
 		$doctors = $this->Inform->Doctor->find('list');
 		$this->set(compact('patients', 'doctors', 'medicamentos'));
 	}

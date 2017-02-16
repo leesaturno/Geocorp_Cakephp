@@ -25,7 +25,7 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Medicamento'); ?></strong></td>
 		<td>
-			<?php echo h($inform['Inform']['medicamento_id']); ?>
+			<?php echo h($inform['Inform']['medicament_id']); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Diagnóstico'); ?></strong></td>
