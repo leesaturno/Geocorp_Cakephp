@@ -31,7 +31,7 @@
 		<td class="text-center"><?php echo h($inform['Inform']['id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['indicaciones']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($inform['Medicament']['id'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id'])); ?>
+			<?php echo $this->Html->link($inform['Medicament']['descri'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id'])); ?>
 		</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($inform['Diagnostico']['codigo'], array('controller' => 'diagnosticos', 'action' => 'view', $inform['Diagnostico']['id'])); ?>
@@ -67,9 +67,19 @@
 	echo $this->Html->script('jquery.min');
 	echo $this->Html->script('plugins/datatables/jquery.dataTables');
 	echo $this->Html->script('plugins/datatables/dataTables.bootstrap');
+	echo $this->Html->script('push.min');
 ?>
 <script type="text/javascript">
     $(function() {
         $("#Informs").dataTable();
     });
+    Push.create("Hello world!", {
+    body: "How's it hangin'?",
+    icon: 'icon.png',
+
+    onClick: function () {
+        window.focus();
+        this.close();
+    }
+});
 </script>

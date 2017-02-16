@@ -11,7 +11,7 @@ class MedicamentFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'primary'),
-		'descripcion' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 60, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'descri' => array('type' => 'string', 'null' => false, 'default' => null, 'length' => 60, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'created' => array('type' => 'datetime', 'null' => false, 'default' => null),
 		'modified' => array('type' => 'datetime', 'null' => false, 'default' => null),
 		'indexes' => array(
@@ -28,9 +28,9 @@ class MedicamentFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'descripcion' => 'Lorem ipsum dolor sit amet',
-			'created' => '2017-02-16 15:14:06',
-			'modified' => '2017-02-16 15:14:06'
+			'descri' => 'Lorem ipsum dolor sit amet',
+			'created' => '2017-02-16 21:03:29',
+			'modified' => '2017-02-16 21:03:29'
 		),
 	);
 

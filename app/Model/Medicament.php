@@ -12,7 +12,7 @@ class Medicament extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'descripcion';
+	public $displayField = 'descri';
 
 /**
  * Validation rules
@@ -20,7 +20,7 @@ class Medicament extends AppModel {
  * @var array
  */
 	public $validate = array(
-		'descripcion' => array(
+		'descri' => array(
 			'notBlank' => array(
 				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
