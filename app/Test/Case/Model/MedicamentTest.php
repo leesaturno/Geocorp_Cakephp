@@ -1,10 +1,10 @@
 <?php
-App::uses('Inform', 'Model');
+App::uses('Medicament', 'Model');
 
 /**
- * Inform Test Case
+ * Medicament Test Case
  */
-class InformTest extends CakeTestCase {
+class MedicamentTest extends CakeTestCase {
 
 /**
  * Fixtures
@@ -12,6 +12,7 @@ class InformTest extends CakeTestCase {
  * @var array
  */
 	public $fixtures = array(
+		'app.medicament',
 		'app.inform',
 		'app.patient',
 		'app.etnia',
@@ -43,7 +44,7 @@ class InformTest extends CakeTestCase {
  */
 	public function setUp() {
 		parent::setUp();
-		$this->Inform = ClassRegistry::init('Inform');
+		$this->Medicament = ClassRegistry::init('Medicament');
 	}
 
 /**
@@ -52,7 +53,7 @@ class InformTest extends CakeTestCase {
  * @return void
  */
 	public function tearDown() {
-		unset($this->Inform);
+		unset($this->Medicament);
 
 		parent::tearDown();
 	}
