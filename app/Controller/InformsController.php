@@ -15,7 +15,7 @@ class InformsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Flash', 'Session');
+	public $components = array('Paginator', 'Flash', 'Session','RequestHandler');
 
 /**
  * index method
@@ -35,20 +35,24 @@ class InformsController extends AppController {
  * @return void
  */
 	public function view($id = null) {
-		$this->loadModel('Patient', 'RequestHandler');
-$Patient = $this->Patient->find(
-    'first');
-$this->set(compact('Patient'));
-		if (!$this->Inform->exists($id)) {
-			throw new NotFoundException(__('Invalid inform'));
+
+		
+	if (!$this->Inform->exists($id)) {
+			throw new NotFoundException(__('Invalid doctor'));
 		}
-	
 			
 			
+
 		$options = array('conditions' => array('Inform.' . $this->Inform->primaryKey => $id));
+	$this->pdfConfig = array(
+	'download' => true,
+	'filename' => 'Inform_' . $id .'.pdf'
+);
+	
+    $this->response->type('application/pdf');
 		$this->set('inform', $this->Inform->find('first', $options));
 	}
-
+			 
 /**
  * add method
  *

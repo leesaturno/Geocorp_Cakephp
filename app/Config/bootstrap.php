@@ -90,9 +90,10 @@ Cache::config('default', array('engine' => 'File'));
  *
  * ));
  */ 
-CakePlugin::loadAll();
+CakePlugin::load('CakePdf', array('bootstrap' => true, 'routes' => true));
 CakePlugin::load('DebugKit');
 CakePlugin::load('Upload');
+
 
 Configure::write('Dispatcher.filters', array(
 	'AssetDispatcher',
@@ -112,4 +113,9 @@ CakeLog::config('error', array(
 	'engine' => 'File',
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
+));
+Configure::write('CakePdf', array(
+    'engine' => 'CakePdf.DomPdf',
+    'pageSize' => 'A4',
+    'orientation' => 'portrait'
 ));

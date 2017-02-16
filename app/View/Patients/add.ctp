@@ -18,79 +18,79 @@
 
 					 <div class="col-md-3">
 				   <div class="form-group">
-						<?php echo $this->Form->input('etnia_id', ['label' => 'Etnia' ], array('class' => 'form-control', 'empty'=> true, 'default'=> 'N/A')); ?>
+						<?php echo $this->Form->input('etnia_id', ['label' => 'Etnia','class' => 'form-control', 'empty'=> true, 'default'=> 'N/A']); ?>
 					</div><!-- .form-group -->
 					</div>
 
 					 <div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('person_id', ['label' => 'Persona' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('person_id', ['label' => 'Persona', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A']); ?>
 					</div><!-- .form-group -->
 					</div>
 					 <div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('urbanizacion_res', ['label' => 'Urbanización/Residencia' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('urbanizacion_res', ['label' => 'Urbanización/Residencia', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A']); ?>
 					</div><!-- .form-group -->
 					</div>
 					
 					<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('avenida_res', ['label' => 'Avenida/Calle' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('avenida_res', ['label' => 'Avenida/Calle', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A']); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 					
 					<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('casa_res', ['label' => 'Casa' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('casa_res', ['label' => 'Casa' ,'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A']); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 					<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('piso_res', ['label' => 'Piso' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('piso_res', ['label' => 'Piso','class' => 'form-control', 'empty'=> true, 'default'=> 'N/A']); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 			
 					<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('tiempo_residencia', ['label' => 'Tiempo de Residencia' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('tiempo_residencia', ['label' => 'Tiempo de Residencia', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A']); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 					
 <div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('country_id', ['label' => 'País' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('country_id', ['label' => 'País','class' => 'form-control', 'empty'=> true, 'default'=> 'N/A' ]); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 				<div class="col-md-3">
 
 					<div class="form-group">
-						<?php echo $this->Form->input('municipio_id', ['label' => 'Municipio' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('municipio_id', ['label' => 'Municipio', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A' ]); ?>
 					</div><!-- .form-group -->
 						</div><!-- .form-group -->
 			<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('parroquia_id', ['label' => 'Parroquia' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('parroquia_id', ['label' => 'Parroquia', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A' ]); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 			
 					<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('type_blood_id', ['label' => 'Tipo de Sangre' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('type_blood_id', ['label' => 'Tipo de Sangre', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A' ]); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->	
 					<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('ocupacion_id', ['label' => 'Ocupación' ], array('class' => 'form-control')); ?>
+						<?php echo $this->Form->input('ocupacion_id', ['label' => 'Ocupación', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A' ]); ?>
 					</div><!-- .form-group -->
 </div><!-- .form-group -->
 					<div class="col-md-6">
 					<div class="form-group">
-						<?php echo $this->Form->input('fpp', ['label' => 'Fecha probable de parto' ], array('class' => 'form-control', 'id'=>'datepicker' ,'type'=> 'text')); ?>
+						<?php echo $this->Form->input('fpp', ['label' => 'Fecha probable de parto','class' => 'form-control', 'id'=>'datepicker' ,'type'=> 'text' ]); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 					<div class="col-md-6">
 					<div class="form-group">
-						<?php echo $this->Form->input('fun', ['label' => 'Fecha de última menstruación' ], array('class' => 'form-control', 'id'=>'datepicker2' ,'type'=> 'text')); ?>
+						<?php echo $this->Form->input('fun', ['label' => 'Fecha de última menstruación','class' => 'form-control', 'id'=>'datepicker2' ,'type'=> 'text' ]); ?>
 						
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->

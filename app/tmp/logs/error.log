@@ -12616,3 +12616,204 @@ Stack Trace:
 #3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-02-12 14:57:09 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [/home/cabox/workspace/app/View/Patients/add.ctp, line 32]
+2017-02-12 14:57:09 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /patients/add
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 32, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 32, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-15 20:37:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'sql10157949\'@\'138.91.154.10\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/cabox/workspace/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/cabox/workspace/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home/cabox/workspace/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home/cabox/workspace/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /home/cabox/workspace/app/View/Users/login.ctp(113): FormHelper->create('', Array)
+#9 /home/cabox/workspace/lib/Cake/View/View.php(971): include('/home/cabox/wor...')
+#10 /home/cabox/workspace/lib/Cake/View/View.php(933): View->_evaluate('/home/cabox/wor...', Array)
+#11 /home/cabox/workspace/lib/Cake/View/View.php(473): View->_render('/home/cabox/wor...')
+#12 /home/cabox/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#13 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-02-15 20:38:15 Error: [MissingControllerException] Controller class PhpmiController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmiController',
+  'plugin' => NULL,
+)
+Request URL: /phpmi
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-15 20:47:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'sql10157949\'@\'138.91.154.10\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/cabox/workspace/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/cabox/workspace/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home/cabox/workspace/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home/cabox/workspace/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /home/cabox/workspace/app/View/Users/login.ctp(113): FormHelper->create('', Array)
+#9 /home/cabox/workspace/lib/Cake/View/View.php(971): include('/home/cabox/wor...')
+#10 /home/cabox/workspace/lib/Cake/View/View.php(933): View->_evaluate('/home/cabox/wor...', Array)
+#11 /home/cabox/workspace/lib/Cake/View/View.php(473): View->_render('/home/cabox/wor...')
+#12 /home/cabox/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#13 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-02-15 20:47:55 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'sql10157949\'@\'138.91.154.10\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/cabox/workspace/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/cabox/workspace/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /home/cabox/workspace/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/cabox/workspace/lib/Cake/Model/Model.php(3653): Model->setSource('users')
+#5 /home/cabox/workspace/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /home/cabox/workspace/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /home/cabox/workspace/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /home/cabox/workspace/app/View/Users/login.ctp(113): FormHelper->create('', Array)
+#9 /home/cabox/workspace/lib/Cake/View/View.php(971): include('/home/cabox/wor...')
+#10 /home/cabox/workspace/lib/Cake/View/View.php(933): View->_evaluate('/home/cabox/wor...', Array)
+#11 /home/cabox/workspace/lib/Cake/View/View.php(473): View->_render('/home/cabox/wor...')
+#12 /home/cabox/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#13 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-02-16 00:59:14 Error: [MissingPluginException] Plugin pdf could not be found.
+Exception Attributes: array (
+  'plugin' => 'pdf',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Core/CakePlugin.php(235): CakePlugin::path('pdf')
+#1 /home/cabox/workspace/app/Config/routes.php(37): CakePlugin::routes('pdf')
+#2 /home/cabox/workspace/lib/Cake/Routing/Router.php(1266): include('/home/cabox/wor...')
+#3 /home/cabox/workspace/lib/Cake/Routing/Router.php(595): Router::_loadRoutes()
+#4 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(219): Router::parse('users/login')
+#5 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#6 /home/cabox/workspace/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#7 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#8 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-02-16 00:59:14 Error: [MissingPluginException] Plugin pdf could not be found.
+Exception Attributes: array (
+  'plugin' => 'pdf',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Core/CakePlugin.php(235): CakePlugin::path('pdf')
+#1 /home/cabox/workspace/app/Config/routes.php(37): CakePlugin::routes('pdf')
+#2 /home/cabox/workspace/lib/Cake/Routing/Router.php(1266): include('/home/cabox/wor...')
+#3 /home/cabox/workspace/lib/Cake/Routing/Router.php(595): Router::_loadRoutes()
+#4 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(219): Router::parse('users/login')
+#5 [internal function]: Dispatcher->parseParams(Object(CakeEvent))
+#6 /home/cabox/workspace/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#7 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(147): CakeEventManager->dispatch(Object(CakeEvent))
+#8 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2017-02-16 01:10:35 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/cabox/workspace/app/Controller/InformsController.php, line 46]
+2017-02-16 01:10:35 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 46, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 46, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 01:10:55 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in [/home/cabox/workspace/app/Controller/InformsController.php, line 43]
+2017-02-16 01:10:55 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 43, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 43, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 01:12:31 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/cabox/workspace/app/Controller/InformsController.php, line 48]
+2017-02-16 01:12:31 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 48, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 48, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 01:13:34 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ')' in [/home/cabox/workspace/app/Controller/InformsController.php, line 50]
+2017-02-16 01:13:34 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ')'
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 50, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 50, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 01:14:45 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/home/cabox/workspace/app/Controller/InformsController.php, line 59]
+2017-02-16 01:14:45 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /informs
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 59, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 59, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 01:15:52 Error: [MissingViewException] View file "Informs/pdf/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Informs/pdf/view.ctp',
+)
+Request URL: /informs/view/1.pdf
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/cabox/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#4 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-16 01:23:57 Error: [MissingLayoutException] Layout file "Layouts/pdf/ajax.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/pdf/ajax.ctp',
+)
+Request URL: /informs/view/1.pdf
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/View/View.php(514): View->_getLayoutFileName('ajax')
+#1 /home/cabox/workspace/lib/Cake/View/View.php(481): View->renderLayout('', 'ajax')
+#2 /home/cabox/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#5 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
