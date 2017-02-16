@@ -41,14 +41,14 @@ class InformsController extends AppController {
 			throw new NotFoundException(__('Invalid doctor'));
 		}
 			
-			
-
-		$options = array('conditions' => array('Inform.' . $this->Inform->primaryKey => $id));
-	$this->pdfConfig = array(
+				$this->pdfConfig = array(
 	'download' => true,
-	'filename' => 'Inform_' . $id .'.pdf'
+	'filename' => 'inform_' . $id .'.pdf'
 );
 	
+
+		$options = array('conditions' => array('Inform.' . $this->Inform->primaryKey => $id));
+
     $this->response->type('application/pdf');
 		$this->set('inform', $this->Inform->find('first', $options));
 	}
@@ -69,7 +69,7 @@ class InformsController extends AppController {
 			}
 		}
 		$patients = $this->Inform->Patient->find('list');
-		$medicamentos = $this->Inform->Medicamentos->find('list');
+		$medicamentos = $this->Inform->Medicamento->find('list');
 		$doctors = $this->Inform->Doctor->find('list');
 		$this->set(compact('patients', 'doctors', 'medicamentos'));
 	}
@@ -89,6 +89,7 @@ class InformsController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Inform->save($this->request->data)) {
 				$this->Session->setFlash(__('The inform has been saved'), 'flash/success');
+		
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The inform could not be saved. Please, try again.'), 'flash/error');

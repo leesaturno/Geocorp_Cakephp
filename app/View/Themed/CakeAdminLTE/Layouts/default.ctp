@@ -102,7 +102,7 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 		
 <?php echo $this->Html->script('jquery.min'); ?>
 <?php echo $this->Html->script('jquery-ui.min'); ?>
-<?php //echo $this->Html->script('search'); ?>
+
 		<?php
 		
 			echo $this->Html->script('bootstrap.min');

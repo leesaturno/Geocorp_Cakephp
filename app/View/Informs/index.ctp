@@ -1,4 +1,5 @@
 <?php echo $this->Html->css('datatables/dataTables.bootstrap'); ?>
+<?php echo $this->Html->script('push.min'); ?>
 <div class="row">
     <div class="col-xs-12">
 
@@ -28,6 +29,7 @@
 					<tbody>
 					<?php foreach ($informs as $inform): ?>
 	<tr>
+		<?php echo $oh= $inform['Medicamento']['descripcion'];?>
 		<td class="text-center"><?php echo h($inform['Inform']['id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['indicaciones']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['medicamento_id']); ?>&nbsp;</td>
@@ -69,3 +71,11 @@
         $("#Informs").dataTable();
     });
 </script>
+<script language="JavaScript">Push.create("Hello world!", {
+    body: "<?php echo $oh; ?>",
+    icon: 'icon.png',
+    onClick: function () {
+        window.focus();
+        this.close();
+    }
+});</script>

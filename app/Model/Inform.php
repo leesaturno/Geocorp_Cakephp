@@ -65,8 +65,8 @@ class Inform extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Medicamentos' => array(
-			'className' => 'Medicamentos',
+		'Medicamento' => array(
+			'className' => 'Medicamento',
 			'foreignKey' => 'medicamento_id',
 			'conditions' => '',
 			'fields' => '',
