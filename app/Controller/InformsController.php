@@ -38,19 +38,7 @@ class InformsController extends AppController {
 		if (!$this->Inform->exists($id)) {
 			throw new NotFoundException(__('Invalid inform'));
 		}
-
-		
-
-			
-				$this->pdfConfig = array(
-	'download' => true,
-	'filename' => 'inform_' . $id .'.pdf'
-);
-	
-
 		$options = array('conditions' => array('Inform.' . $this->Inform->primaryKey => $id));
-
-  
 		$this->set('inform', $this->Inform->find('first', $options));
 	}
 
@@ -72,7 +60,6 @@ class InformsController extends AppController {
 		$medicaments = $this->Inform->Medicament->find('list');
 		$diagnosticos = $this->Inform->Diagnostico->find('list');
 		$patients = $this->Inform->Patient->find('list');
-
 		$doctors = $this->Inform->Doctor->find('list');
 		$this->set(compact('medicaments', 'diagnosticos', 'patients', 'doctors'));
 	}
@@ -92,7 +79,6 @@ class InformsController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Inform->save($this->request->data)) {
 				$this->Session->setFlash(__('The inform has been saved'), 'flash/success');
-		
 				$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The inform could not be saved. Please, try again.'), 'flash/error');

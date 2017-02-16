@@ -11,13 +11,6 @@ App::uses('AppModel', 'Model');
 class Inform extends AppModel {
 
 /**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'indicaciones';
-
-/**
  * Validation rules
  *
  * @var array
@@ -100,7 +93,6 @@ class Inform extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-
 		)
 	);
 }

@@ -41,8 +41,8 @@ class InformFixture extends CakeTestFixture {
 			'conclusiones' => 'Lorem ipsum dolor sit amet',
 			'patient_id' => 1,
 			'doctor_id' => 1,
-			'created' => '2017-02-16 15:17:44',
-			'modified' => '2017-02-16 15:17:44'
+			'created' => '2017-02-16 20:08:48',
+			'modified' => '2017-02-16 20:08:48'
 		),
 	);
 

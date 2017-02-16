@@ -15,9 +15,7 @@
 						<?php echo $this->Form->input('indicaciones', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">
-
-						<?php echo $this->Form->input('medicament_id', ['label' => 'Medicamento'], array('class' => 'form-control')); ?>
-
+						<?php echo $this->Form->input('medicament_id', array('class' => 'form-control')); ?>
 					</div><!-- .form-group -->
 					<div class="form-group">
 						<?php echo $this->Form->input('diagnostico_id', array('class' => 'form-control')); ?>
