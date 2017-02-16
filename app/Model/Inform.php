@@ -3,6 +3,8 @@ App::uses('AppModel', 'Model');
 /**
  * Inform Model
  *
+ * @property Medicament $Medicament
+ * @property Diagnostico $Diagnostico
  * @property Patient $Patient
  * @property Doctor $Doctor
  */
@@ -13,7 +15,7 @@ class Inform extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'conclusiones';
+	public $displayField = 'indicaciones';
 
 /**
  * Validation rules
@@ -21,6 +23,26 @@ class Inform extends AppModel {
  * @var array
  */
 	public $validate = array(
+		'medicament_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
+		'diagnostico_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
 		'patient_id' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
@@ -51,6 +73,20 @@ class Inform extends AppModel {
  * @var array
  */
 	public $belongsTo = array(
+		'Medicament' => array(
+			'className' => 'Medicament',
+			'foreignKey' => 'medicament_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'Diagnostico' => array(
+			'className' => 'Diagnostico',
+			'foreignKey' => 'diagnostico_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
 		'Patient' => array(
 			'className' => 'Patient',
 			'foreignKey' => 'patient_id',
@@ -64,6 +100,7 @@ class Inform extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
+<<<<<<< HEAD
 		),
 		'Medicamento' => array(
 			'className' => 'Medicamento',
@@ -71,6 +108,8 @@ class Inform extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
+=======
+>>>>>>> d8c402689b99e255b78b28f2dc905234c7725c41
 		)
 	);
 }

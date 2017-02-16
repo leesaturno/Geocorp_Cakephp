@@ -11,9 +11,10 @@ class InformFixture extends CakeTestFixture {
  */
 	public $fields = array(
 		'id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'primary'),
-		'semanas' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 80, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'indicaciones' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
-		'conclusiones' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 45, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
+		'medicament_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false),
+		'diagnostico_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false),
+		'conclusiones' => array('type' => 'string', 'null' => true, 'default' => null, 'collate' => 'latin1_swedish_ci', 'charset' => 'latin1'),
 		'patient_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'index'),
 		'doctor_id' => array('type' => 'integer', 'null' => false, 'default' => null, 'unsigned' => false, 'key' => 'index'),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
@@ -34,13 +35,14 @@ class InformFixture extends CakeTestFixture {
 	public $records = array(
 		array(
 			'id' => 1,
-			'semanas' => 'Lorem ipsum dolor sit amet',
 			'indicaciones' => 'Lorem ipsum dolor sit amet',
+			'medicament_id' => 1,
+			'diagnostico_id' => 1,
 			'conclusiones' => 'Lorem ipsum dolor sit amet',
 			'patient_id' => 1,
 			'doctor_id' => 1,
-			'created' => '2017-01-29 02:30:52',
-			'modified' => '2017-01-29 02:30:52'
+			'created' => '2017-02-16 15:17:44',
+			'modified' => '2017-02-16 15:17:44'
 		),
 	);
 
