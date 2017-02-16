@@ -23,11 +23,18 @@ class UltrasoundsController extends AppController {
  *
  * @return void
  */
-public function view_pdf(){
-// increase memory limit in PHP 
-ini_set('memory_limit', '512M');
- $ultrasound = $this->Ultrasound->find('all');
-$this->set(compact('ultrasound'));
+public function view_pdf($id=null){
+	if (!$this->Ultrasound->exists($id)) {
+			throw new NotFoundException(__('Invalid ultrasound'));
+		}
+		$this->pdfConfig = array(
+	'download' => true,
+	'filename' => 'Paciente' . $id .'.pdf'
+);
+	
+	
+		$options = array('conditions' => array('Ultrasound.' . $this->Ultrasound->primaryKey => $id));
+		$this->set('ultrasound', $this->Ultrasound->find('first', $options));
 					 }
 		
 

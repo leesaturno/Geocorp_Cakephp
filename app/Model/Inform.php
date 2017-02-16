@@ -100,6 +100,7 @@ class Inform extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
+
 		)
 	);
 }

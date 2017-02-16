@@ -1,9 +1,3 @@
-<html>
-
-
-<head>
-<meta charset="utf-8">
-<?php $meses = array('1'=> 'Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'); ?>
 <style>
 
 
@@ -26,11 +20,11 @@ caption { font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
  	text-align:center; 
  }
 
-th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
-    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;   
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff;  }
 
-td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
-    color: #669;    border-top: 1px solid transparent; }
+td {    padding: 8px;       border-bottom: 1px solid #fff;
+        border-top: 1px solid transparent; }
 h3 {
 	font-size: 15px;     font-weight: normal;      text-align: justify;     
 
@@ -44,72 +38,71 @@ div.container {
     margin-left: 50px;
 }
 </style> 
-</head>
-<body>
 
-<div class="container" >
- <img src="C:\logo-unerg.png"; width="25%"; height="100"; margin-left='10px'; margin-top='10px'; />
- <div align='center'>
-		Republica Bolivariana de Venezuela <br>
-		Universidad Nacional Experimental Romulo Gallegos <br>
-		Direccion de Admision, Control y Evaluacion
-</div>	
+
+<div class="row">
+    <div class="col-xs-12">
 		
+		<div class="box box-primary">
+			<div class="box-header">
+				<h3 class="box-title"><?php  echo __('Informe'); ?></h3>
+				<div class="box-tools pull-right">
+	               
+	            </div>
+			</div>
+			
+			<div class="box-body table-responsive">
+                <table id="Informs" class="table table-bordered table-striped">
+					<tbody>
+						<tr>		<th><strong><?php echo __('Indicaciones'); ?></strong></th>
+		<td>
+			<?php echo h($inform['Inform']['indicaciones']); ?>
+			&nbsp;
+		</td>
+</tr><tr>		<th><strong><?php echo __('Medicamento'); ?></strong></th>
+		<td>
+			<?php echo h($inform['Inform']['medicamento_id']); ?>
+			&nbsp;
+		</td>
+</tr><tr>		<th><strong><?php echo __('Diagnóstico'); ?></strong></th>
+		<td>
+			<?php echo h($inform['Inform']['diagnostico_id']); ?>
+			&nbsp;
+		</td>
+</tr><tr>		<th><strong><?php echo __('Conclusiones'); ?></strong></th>
+		<td>
+			<?php echo h($inform['Inform']['conclusiones']); ?>
+			&nbsp;
+		</td>
+						
+</tr><tr>		<th><strong><?php echo __('Pacientes'); ?></strong></th>
+		<td>
+			<?php echo $this->Html->link($inform['Patient']['person_id'], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id']), array('class' => '')); ?>
+			&nbsp;
+		</td>
+</tr><tr>		<th><strong><?php echo __('Doctor'); ?></strong></th>
+		<td>
+			<?php echo $this->Html->link($inform['Doctor']['cod_sanitarios'], array('controller' => 'doctors', 'action' => 'view', $inform['Doctor']['id']), array('class' => '')); ?>
+			&nbsp;
+		</td>
+</tr><tr>		<th><strong><?php echo __('Creado'); ?></strong></th>
+		<td>
+			<?php echo h($inform['Inform']['created']); ?>
+			&nbsp;
+		</td>
+</tr><tr>		<th><strong><?php echo __('Modificado'); ?></strong></th>
+		<td>
+			<?php echo h($inform['Inform']['modified']); ?>
+			&nbsp;
+		</td>
+</tr>					</tbody>
+				</table><!-- /.table table-striped table-bordered -->
+			</div><!-- /.table-responsive -->
+			
+		</div><!-- /.view -->
 
+			
+	</div><!-- /#page-content .span9 -->
 
-		<br>
-		<br>
-		<br>
-		<br>
-
-		<div align="center"><strong>CONSTANCIA DE ESTUDIO</strong></div>
-
-		<br>
-		<br>
-		<br>
-
-		<div text-align='justify'>
-	
-			Quien suscribe hace constar por medio de la presente que el Ciudadano Bachiller: <strong> <?php echo $inform['Inform']['conclusiones'] ;?> </strong> C.I.: <strong> <?php echo $inform['Inform']['conclusiones']; ?> </strong> Esta Inscrito como Alumno Regular de Esta Universidad, en la Carrera de Ingenieria en Informatica.
-
-</div>	
-	
-	<br> <br> <br>
- <div align='center'>
-		Constancia que se Expide a Peticion de Parte Interesada, En la Ciudad De San Juan , a los <strong> <?php echo date('j');?> </strong>  Dias del Mes <strong> <?php 
-		
-			for ($i=1; $i < 13; $i++) { 
-				if ((date('n')) == $i ) {
-					echo $meses[$i];
-				}	
-			}
-		 ?>
-
-		 </strong> del A&ntilde;o <strong><?php echo date('o'); ?> </strong>
-
-		
-</div>	
-<br> <br> <br> <br> <br> <br>
-<div align='center'>
-	<strong>
-	Prof. Alberto de Sousa <br>
-	Coordinador (A) Oficina Sectorial. <br>
-	Area de Ingenieria de Sistemas. 
-</strong>
-		
-</div>	
-
-</div>
-
-<br> 
-<br>
-<div align='center'>
-	 <font size="1"> </font>
-	Este Documento sin el sello y la Firma de la Oficina Sectorial de Control de Estudios, no tiene validez.
-	
-</body>
-
-
-</html>
-
+</div><!-- /#page-container .row-fluid -->
 

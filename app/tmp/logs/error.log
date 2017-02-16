@@ -12817,3 +12817,210 @@ Stack Trace:
 #4 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
 #5 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2017-02-16 08:17:57 Error: [NotFoundException] Invalid ultrasound
+Request URL: /ultrasounds/view_pdf/2.pdf
+Stack Trace:
+#0 [internal function]: UltrasoundsController->view_pdf('2')
+#1 /home/cabox/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UltrasoundsController), Array)
+#2 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/cabox/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UltrasoundsController), Object(CakeRequest))
+#4 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-02-16 08:18:51 Error: Fatal Error (1): Call to undefined method DOMText::getAttribute() in [/home/cabox/workspace/app/Plugin/CakePdf/Vendor/dompdf/include/cellmap.cls.php, line 400]
+2017-02-16 08:18:51 Error: [FatalErrorException] Call to undefined method DOMText::getAttribute()
+Request URL: /ultrasounds/view_pdf/2.pdf
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cabox/wor...', 400)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 08:19:45 Error: Fatal Error (1): Call to undefined method DOMText::getAttribute() in [/home/cabox/workspace/app/Plugin/CakePdf/Vendor/dompdf/include/cellmap.cls.php, line 400]
+2017-02-16 08:19:45 Error: [FatalErrorException] Call to undefined method DOMText::getAttribute()
+Request URL: /ultrasounds/view_pdf/2.pdf
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cabox/wor...', 400)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 08:19:46 Error: Fatal Error (1): Call to undefined method DOMText::getAttribute() in [/home/cabox/workspace/app/Plugin/CakePdf/Vendor/dompdf/include/cellmap.cls.php, line 400]
+2017-02-16 08:19:46 Error: [FatalErrorException] Call to undefined method DOMText::getAttribute()
+Request URL: /ultrasounds/view_pdf/2.pdf
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cabox/wor...', 400)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 08:19:47 Error: Fatal Error (1): Call to undefined method DOMText::getAttribute() in [/home/cabox/workspace/app/Plugin/CakePdf/Vendor/dompdf/include/cellmap.cls.php, line 400]
+2017-02-16 08:19:47 Error: [FatalErrorException] Call to undefined method DOMText::getAttribute()
+Request URL: /ultrasounds/view_pdf/2.pdf
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/cabox/wor...', 400)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/cabox/wor...', 400, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 09:32:35 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/cabox/workspace/app/Controller/InformsController.php, line 92]
+2017-02-16 09:32:35 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /informs/edit/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 92)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 92, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 92, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 09:34:12 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in [/home/cabox/workspace/app/Controller/InformsController.php, line 101]
+2017-02-16 09:34:12 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';'
+Request URL: /informs/edit/1
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 101)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 101, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 101, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 09:41:12 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 09:45:00 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 09:52:20 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 09:53:04 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 09:57:23 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 09:57:57 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 09:58:12 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 10:00:09 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 10:00:22 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 10:00:37 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 10:00:55 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 10:01:24 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /icon.png
+Stack Trace:
+#0 /home/cabox/workspace/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-16 10:02:38 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/cabox/workspace/app/Controller/InformsController.php, line 72]
+2017-02-16 10:02:38 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /informs/add
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cabox/wor...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cabox/wor...', 72, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cabox/wor...', 72, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 10:03:45 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/cabox/workspace/app/Controller/InformsController.php, line 72]
+2017-02-16 10:03:45 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /informs/add
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/cabox/wor...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/cabox/wor...', 72, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/cabox/wor...', 72, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-16 10:31:37 Error: Fatal Error (4): syntax error, unexpected '<<' (T_SL), expecting ')' in [/home/cabox/workspace/app/Model/Inform.php, line 103]
+2017-02-16 10:31:37 Error: [FatalErrorException] syntax error, unexpected '<<' (T_SL), expecting ')'
+Request URL: /informs/add
+Stack Trace:
+#0 /home/cabox/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/cabox/wor...', 103)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/cabox/wor...', 103, Array)
+#2 /home/cabox/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/cabox/wor...', 103, Array)
+#3 /home/cabox/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
