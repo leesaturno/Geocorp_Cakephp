@@ -20,7 +20,9 @@
 					</div>
 					<div class="col-md-3">
 					<div class="form-group">
+
 						<?php echo $this->Form->input('medicament_id', ['label' => 'Medicamento','class' => 'form-control']); ?>
+
 					</div><!-- .form-group -->
 					</div>
 					<div class="col-md-3">

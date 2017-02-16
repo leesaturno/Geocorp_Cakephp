@@ -13,6 +13,8 @@ class InformTest extends CakeTestCase {
  */
 	public $fixtures = array(
 		'app.inform',
+		'app.medicament',
+		'app.diagnostico',
 		'app.patient',
 		'app.etnia',
 		'app.person',
@@ -32,8 +34,7 @@ class InformTest extends CakeTestCase {
 		'app.nivel_educativo',
 		'app.question',
 		'app.ultrasound',
-		'app.type_ultrasound',
-		'app.medicamentos'
+		'app.type_ultrasound'
 	);
 
 /**
