@@ -13,11 +13,28 @@ class InformsControllerTest extends ControllerTestCase {
  */
 	public $fixtures = array(
 		'app.inform',
-		'app.patients',
-		'app.doctor',
+		'app.medicament',
+		'app.diagnostico',
+		'app.patient',
+		'app.etnia',
 		'app.person',
-		'app.specialty',
-		'app.history'
+		'app.ocupacion',
+		'app.doctor',
+		'app.hospitales',
+		'app.cargo',
+		'app.specialties',
+		'app.country',
+		'app.municipio',
+		'app.hospitale',
+		'app.localization',
+		'app.parroquia',
+		'app.type_blood',
+		'app.history',
+		'app.situacion_conyugal',
+		'app.nivel_educativo',
+		'app.question',
+		'app.ultrasound',
+		'app.type_ultrasound'
 	);
 
 /**

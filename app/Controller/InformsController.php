@@ -15,7 +15,7 @@ class InformsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'Flash', 'Session','RequestHandler');
+	public $components = array('Paginator', 'Flash', 'Session');
 
 /**
  * index method
@@ -35,24 +35,13 @@ class InformsController extends AppController {
  * @return void
  */
 	public function view($id = null) {
-
-		
-	if (!$this->Inform->exists($id)) {
-			throw new NotFoundException(__('Invalid doctor'));
+		if (!$this->Inform->exists($id)) {
+			throw new NotFoundException(__('Invalid inform'));
 		}
-			
-			
-
 		$options = array('conditions' => array('Inform.' . $this->Inform->primaryKey => $id));
-	$this->pdfConfig = array(
-	'download' => true,
-	'filename' => 'Inform_' . $id .'.pdf'
-);
-	
-    $this->response->type('application/pdf');
 		$this->set('inform', $this->Inform->find('first', $options));
 	}
-			 
+
 /**
  * add method
  *
@@ -68,10 +57,11 @@ class InformsController extends AppController {
 				$this->Session->setFlash(__('The inform could not be saved. Please, try again.'), 'flash/error');
 			}
 		}
+		$medicaments = $this->Inform->Medicament->find('list');
+		$diagnosticos = $this->Inform->Diagnostico->find('list');
 		$patients = $this->Inform->Patient->find('list');
-		$medicamentos = $this->Inform->Medicamentos->find('list');
 		$doctors = $this->Inform->Doctor->find('list');
-		$this->set(compact('patients', 'doctors', 'medicamentos'));
+		$this->set(compact('medicaments', 'diagnosticos', 'patients', 'doctors'));
 	}
 
 /**
@@ -97,9 +87,11 @@ class InformsController extends AppController {
 			$options = array('conditions' => array('Inform.' . $this->Inform->primaryKey => $id));
 			$this->request->data = $this->Inform->find('first', $options);
 		}
+		$medicaments = $this->Inform->Medicament->find('list');
+		$diagnosticos = $this->Inform->Diagnostico->find('list');
 		$patients = $this->Inform->Patient->find('list');
 		$doctors = $this->Inform->Doctor->find('list');
-		$this->set(compact('patients', 'doctors'));
+		$this->set(compact('medicaments', 'diagnosticos', 'patients', 'doctors'));
 	}
 
 /**

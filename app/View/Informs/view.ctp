@@ -4,9 +4,9 @@
 		
 		<div class="box box-primary">
 			<div class="box-header">
-				<h3 class="box-title"><?php  echo __('Informe'); ?></h3>
+				<h3 class="box-title"><?php  echo __('Inform'); ?></h3>
 				<div class="box-tools pull-right">
-	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Editar'), array('action' => 'edit', $inform['Inform']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
+	                <?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i> Edit'), array('action' => 'edit', $inform['Inform']['id']), array('class' => 'btn btn-primary', 'escape' => false)); ?>
 	            </div>
 			</div>
 			
@@ -23,14 +23,14 @@
 			<?php echo h($inform['Inform']['indicaciones']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Medicamento'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Medicament'); ?></strong></td>
 		<td>
-			<?php echo h($inform['Inform']['medicamento_id']); ?>
+			<?php echo $this->Html->link($inform['Medicament']['descripcion'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Diagnóstico'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Diagnostico'); ?></strong></td>
 		<td>
-			<?php echo h($inform['Inform']['diagnostico_id']); ?>
+			<?php echo $this->Html->link($inform['Diagnostico']['codigo'], array('controller' => 'diagnosticos', 'action' => 'view', $inform['Diagnostico']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Conclusiones'); ?></strong></td>
@@ -38,9 +38,9 @@
 			<?php echo h($inform['Inform']['conclusiones']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Pacientes'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Patient'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($inform['Patient']['person_id'], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id']), array('class' => '')); ?>
+			<?php echo $this->Html->link($inform['Patient']['id'], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Doctor'); ?></strong></td>
@@ -48,12 +48,12 @@
 			<?php echo $this->Html->link($inform['Doctor']['cod_sanitarios'], array('controller' => 'doctors', 'action' => 'view', $inform['Doctor']['id']), array('class' => '')); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Creado'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Created'); ?></strong></td>
 		<td>
 			<?php echo h($inform['Inform']['created']); ?>
 			&nbsp;
 		</td>
-</tr><tr>		<td><strong><?php echo __('Modificado'); ?></strong></td>
+</tr><tr>		<td><strong><?php echo __('Modified'); ?></strong></td>
 		<td>
 			<?php echo h($inform['Inform']['modified']); ?>
 			&nbsp;
