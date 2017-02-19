@@ -46,6 +46,7 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 			echo $this->Html->css('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 			echo $this->Html->css('//fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic');
 			echo $this->Html->css('CakeAdminLTE');
+			echo $this->Html->css('chosen.min');
 			echo $this->fetch('css');
 			//echo $this->Html->script('libs/jquery-1.10.2.min');
 			//echo $this->Html->script('libs/bootstrap.min');

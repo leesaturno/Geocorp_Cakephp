@@ -26,7 +26,10 @@
 						</tr>
 					</thead>
 					<tbody>
-					<?php foreach ($informs as $inform): ?>
+					<?php 
+
+
+					foreach ($informs as $inform): ?>
 	<tr>
 		<td class="text-center"><?php echo h($inform['Inform']['id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['indicaciones']); ?>&nbsp;</td>
@@ -38,7 +41,7 @@
 		</td>
 		<td class="text-center"><?php echo h($inform['Inform']['conclusiones']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($inform['Patient']['id'], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id'])); ?>
+			<?php echo $this->Html->link($patients[$inform['Patient']['id']], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id'])); ?>
 		</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($inform['Doctor']['cod_sanitarios'], array('controller' => 'doctors', 'action' => 'view', $inform['Doctor']['id'])); ?>
@@ -46,7 +49,7 @@
 		<td class="text-center"><?php echo h($inform['Inform']['created']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['modified']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $inform['Inform']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
+			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $inform['Inform']['id'], 'ext' => 'pdf'), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $inform['Inform']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
 			<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('action' => 'delete', $inform['Inform']['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['Inform']['id'])); ?>
 		</td>
@@ -73,6 +76,7 @@
     $(function() {
         $("#Informs").dataTable();
     });
+
     Push.create("Hello world!", {
     body: "How's it hangin'?",
     icon: 'icon.png',

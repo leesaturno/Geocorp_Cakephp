@@ -25,10 +25,10 @@
 													<th class="text-center"><?php echo $this->Paginator->sort('telefono_movil'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('correo'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('direccion'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('ocupacion_id'); ?></th>
+													
 													<th class="text-center"><?php echo $this->Paginator->sort('fecha_nac'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('fecha_defuncio'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('rol'); ?></th>
+												
 												<th class="text-center"><?php echo __('Actions'); ?></th>
 						</tr>
 					</thead>
@@ -47,12 +47,10 @@
 		<td class="text-center"><?php echo h($person['Person']['telefono_movil']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($person['Person']['correo']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($person['Person']['direccion']); ?>&nbsp;</td>
-		<td class="text-center">
-			<?php echo $this->Html->link($person['Ocupacion']['descripcion'], array('controller' => 'ocupacions', 'action' => 'view', $person['Ocupacion']['id'])); ?>
-		</td>
+
 		<td class="text-center"><?php echo h($person['Person']['fecha_nac']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($person['Person']['fecha_defuncio']); ?>&nbsp;</td>
-		<td class="text-center"><?php echo h($person['Person']['rol']); ?>&nbsp;</td>
+
 		<td class="text-center">
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $person['Person']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $person['Person']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>

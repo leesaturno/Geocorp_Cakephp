@@ -91,6 +91,8 @@ Cache::config('default', array('engine' => 'File'));
  * ));
  */ 
 CakePlugin::load('CakePdf', array('bootstrap' => true, 'routes' => true));
+ 	
+define('DOMPDF_ENABLE_REMOTE', true);
 CakePlugin::load('DebugKit');
 CakePlugin::load('Upload');
 

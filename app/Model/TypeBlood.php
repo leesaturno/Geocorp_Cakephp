@@ -11,7 +11,10 @@ class TypeBlood extends AppModel {
  *
  * @var string
  */
-	public $displayField = 'descripcion';
+	public $virtualFields = array(
+    'name' => 'CONCAT(TypeBlood.descripcion, " ", TypeBlood.factor_rh)'
+); 
+	public $displayField = 'name';
 
 /**
  * Validation rules

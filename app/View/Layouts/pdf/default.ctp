@@ -5,7 +5,7 @@
 		<?php echo $this->fetch('title'); ?>
 	</title>
 	<?php
-		echo $this->Html->css('style');
+		echo $this->Html->css('bootstrap.min.css');
 	?>
 </head>
 <body>
