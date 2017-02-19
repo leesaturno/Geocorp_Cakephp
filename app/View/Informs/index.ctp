@@ -19,7 +19,8 @@
 													<th class="text-center"><?php echo $this->Paginator->sort('diagnostico_id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('conclusiones'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('patient_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('doctor_id'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('Semanas'); ?></th>
+														<th class="text-center"><?php echo $this->Paginator->sort('doctor_id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('created'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('modified'); ?></th>
 												<th class="text-center"><?php echo __('Actions'); ?></th>
@@ -41,7 +42,17 @@
 		</td>
 		<td class="text-center"><?php echo h($inform['Inform']['conclusiones']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($patients[$inform['Patient']['id']], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id'])); ?>
+			<?php echo $this->Html->link($person[$inform['Patient']['id']], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id'])); ?>
+		</td>
+		<td class="text-center">
+
+			<?php
+			  $q= $patients[$inform['Patient']['id']];
+   $diff = date_diff(date_create($q),date_create(date("Y-m-d H:i:s")))->format("%R%a dias");
+   $weeks = $diff/8;
+   
+echo round($weeks, 0, PHP_ROUND_HALF_UP);
+			  ?>
 		</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($inform['Doctor']['cod_sanitarios'], array('controller' => 'doctors', 'action' => 'view', $inform['Doctor']['id'])); ?>

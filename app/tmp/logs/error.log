@@ -14062,3 +14062,384 @@ Request URL: /Geocorp_Cakephp_2.7-/theme/CakeAdminLTE/css/bootstrap-chosen.css.m
 Stack Trace:
 #0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-02-19 18:16:26 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Doctors\add.ctp, line 24]
+2017-02-19 18:16:26 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /Geocorp_Cakephp_2.7-/doctors/add
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 24, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 24, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 18:31:19 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:32:56 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:33:46 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:34:27 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:35:56 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:36:23 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:37:31 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Informs\index.ctp, line 33]
+2017-02-19 18:37:31 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 33, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 18:37:46 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:39:37 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:40:41 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:40:55 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:44:10 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\InformsController.php, line 28]
+2017-02-19 18:44:10 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 18:44:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Patient.id' in 'field list'
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Patient...', Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Patient...', Array, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT `Patient...', false)
+#4 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Person), Array)
+#5 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3003): Model->_readDataSource('list', Array)
+#6 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\InformsController.php(28): Model->find('list', Array)
+#7 [internal function]: InformsController->index()
+#8 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#9 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-02-19 18:45:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Person.fun' in 'field list'
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Person`...', Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Person`...', Array, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT `Person`...', false)
+#4 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Person), Array)
+#5 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3003): Model->_readDataSource('list', Array)
+#6 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\InformsController.php(28): Model->find('list', Array)
+#7 [internal function]: InformsController->index()
+#8 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#9 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-02-19 18:45:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Patient.fun' in 'field list'
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT `Person`...', Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Person`...', Array, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(1118): DboSource->fetchAll('SELECT `Person`...', false)
+#4 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3031): DboSource->read(Object(Person), Array)
+#5 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3003): Model->_readDataSource('list', Array)
+#6 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\InformsController.php(28): Model->find('list', Array)
+#7 [internal function]: InformsController->index()
+#8 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(InformsController), Array)
+#9 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(InformsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2017-02-19 18:46:44 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Informs\index.ctp, line 48]
+2017-02-19 18:46:45 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 18:47:52 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Informs\index.ctp, line 48]
+2017-02-19 18:47:53 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 18:48:25 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:48:51 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:49:21 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 18:50:07 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:17:33 Error: Fatal Error (4): syntax error, unexpected '$weeks' (T_VARIABLE) in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Informs\index.ctp, line 52]
+2017-02-19 19:17:33 Error: [FatalErrorException] syntax error, unexpected '$weeks' (T_VARIABLE)
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 52, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 52, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 19:17:49 Error: Fatal Error (1): Call to a member function format() on boolean in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Informs\index.ctp, line 51]
+2017-02-19 19:17:49 Error: [FatalErrorException] Call to a member function format() on boolean
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 19:18:17 Error: Fatal Error (1): Call to a member function format() on boolean in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Informs\index.ctp, line 51]
+2017-02-19 19:18:17 Error: [FatalErrorException] Call to a member function format() on boolean
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 19:20:36 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:21:51 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:22:23 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:23:35 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:23:55 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:24:18 Error: Fatal Error (1): Call to a member function format() on boolean in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Informs\index.ctp, line 51]
+2017-02-19 19:24:18 Error: [FatalErrorException] Call to a member function format() on boolean
+Request URL: /Geocorp_Cakephp_2.7-/informs
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 19:24:43 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:24:53 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:25:12 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:26:46 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:27:07 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:28:07 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:28:55 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-19 19:29:09 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

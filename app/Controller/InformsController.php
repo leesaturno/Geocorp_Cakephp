@@ -24,9 +24,11 @@ class InformsController extends AppController {
  */
 	public function index() {
 		
-		$patients = $this->Inform->Patient->Person->find('list');
+		$person = $this->Inform->Patient->Person->find('list');
+        $patients = $this->Inform->Patient->find('list', array(
+        'fields' => array('id', 'fun')));
 		$this->Inform->recursive = 0;
-		$this->set(compact('patients'));
+		$this->set(compact('patients','person'));
 		$this->set('informs', $this->paginate());
 	}
 
