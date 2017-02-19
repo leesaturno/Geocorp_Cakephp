@@ -62,6 +62,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<br>
 			<div id="msg"></div>
 <br>
+<?php echo $this->Html->script('jquery.min'); ?>
 				<?php echo $cakeVersion; ?>
 			</p>
 		</div>

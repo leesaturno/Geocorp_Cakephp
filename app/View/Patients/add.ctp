@@ -1,8 +1,9 @@
-
-			<?php	echo $this->Html->css('datepicker3');?>
-				<?php echo $this->Html->script('jquery.min'); ?>
+<?php echo $this->Html->css('datepicker3');?>
+<?php echo $this->Html->script('jquery.min'); ?>
+<?php echo $this->Html->script('moment'); ?>
 <?php echo $this->Html->script('bootstrap-datepicker'); ?>
 <?php echo $this->Html->script('bootstrap-datepicker.es'); ?>
+<?php echo $this->Html->script('patientAdd'); ?>
 <div class="">
     <div class="col-xs-12">
 		<div class="box box-primary">
@@ -83,18 +84,18 @@
 						<?php echo $this->Form->input('ocupacion_id', ['label' => 'Ocupación', 'class' => 'form-control', 'empty'=> true, 'default'=> 'N/A' ]); ?>
 					</div><!-- .form-group -->
 </div><!-- .form-group -->
-					<div class="col-md-6">
-					<div class="form-group">
-						<?php echo $this->Form->input('fpp', ['label' => 'Fecha probable de parto','class' => 'form-control', 'id'=>'datepicker' ,'type'=> 'text' ]); ?>
-					</div><!-- .form-group -->
-					</div><!-- .form-group -->
+					
 					<div class="col-md-6">
 					<div class="form-group">
 						<?php echo $this->Form->input('fun', ['label' => 'Fecha de última menstruación','class' => 'form-control', 'id'=>'datepicker2' ,'type'=> 'text' ]); ?>
 						
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
-					
+					<div class="col-md-6">
+					<div class="form-group">
+						<?php echo $this->Form->input('fpp', ['label' => 'Fecha probable de parto','class' => 'form-control', 'id'=>'datepicker' ,'type'=> 'text' ]); ?>
+					</div><!-- .form-group -->
+					</div><!-- .form-group -->
 				</fieldset>	
 				
 					<?php echo $this->Form->submit('Guardar', array('class' => 'btn btn-large btn-primary')); ?>
@@ -110,18 +111,12 @@
 </div><!-- /#page-container .row-fluid -->
 	<script type="text/javascript">
 		
-          $('#datepicker').datepicker({
+          $('#datepicker2').datepicker({
               autoclose: true,
 				language: 'es',
-						 format: 'mm/dd/yyyy',
-    startDate: '-3d',
+						 format: 'm/dd/yyyy',
 						weekStart: 1,
+
             });
-		 $('#datepicker2').datepicker({
-			 language: 'es',
-              autoclose: true,
-			 weekStart: 1,
-			  format: 'mm/dd/yyyy',
-    startDate: '-3d'
-            });
+		
             </script>

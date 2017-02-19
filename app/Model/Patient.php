@@ -144,7 +144,7 @@ class Patient extends AppModel {
 		),
 		'fpp' => array(
 			'date' => array(
-				'rule' => array('date'),
+				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -154,7 +154,7 @@ class Patient extends AppModel {
 		),
 		'fun' => array(
 			'date' => array(
-				'rule' => array('date'),
+				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,

@@ -13350,3 +13350,47 @@ Request URL: /Geocorp_Cakephp_2.7-/icon.png
 Stack Trace:
 #0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-02-18 23:04:53 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Themed\CakeAdminLTE\Layouts\default.ctp, line 41]
+2017-02-18 23:04:53 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Geocorp_Cakephp_2.7-/patients/add
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 01:32:00 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'patients_person_id_8e26e2ac_uniq'
+Request URL: /Geocorp_Cakephp_2.7-/patients/add
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `sq...', Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(1024): DboSource->execute('INSERT INTO `sq...')
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(1933): DboSource->create(Object(Patient), Array, Array)
+#4 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\Controller\PatientsController.php(53): Model->save(Array)
+#6 [internal function]: PatientsController->add()
+#7 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PatientsController), Array)
+#8 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PatientsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2017-02-19 01:35:56 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\View\Patients\add.ctp, line 28]
+2017-02-19 01:35:57 Error: [FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /Geocorp_Cakephp_2.7-/patients/add
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-02-19 01:40:01 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
