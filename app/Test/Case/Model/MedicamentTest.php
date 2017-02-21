@@ -14,6 +14,7 @@ class MedicamentTest extends CakeTestCase {
 	public $fixtures = array(
 		'app.medicament',
 		'app.inform',
+		'app.diagnostico',
 		'app.patient',
 		'app.etnia',
 		'app.person',
@@ -33,8 +34,7 @@ class MedicamentTest extends CakeTestCase {
 		'app.nivel_educativo',
 		'app.question',
 		'app.ultrasound',
-		'app.type_ultrasound',
-		'app.medicamentos'
+		'app.type_ultrasound'
 	);
 
 /**

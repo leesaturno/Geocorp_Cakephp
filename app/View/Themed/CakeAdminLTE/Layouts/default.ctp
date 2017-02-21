@@ -38,6 +38,7 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 			$this->Html->charset;
 			echo $this->Html->meta(['name' => 'viewport', 'content' => 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no']);
 			echo $this->fetch('meta');
+		echo $this->Html->script('jquery.min'); 
 		echo $this->Html->css('fonts.css'); 
 
 			echo $this->Html->css('bootstrap.min.css');
@@ -45,6 +46,7 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 			echo $this->Html->css('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 			echo $this->Html->css('//fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic');
 			echo $this->Html->css('CakeAdminLTE');
+			echo $this->Html->css('chosen.min');
 			echo $this->fetch('css');
 			//echo $this->Html->script('libs/jquery-1.10.2.min');
 			//echo $this->Html->script('libs/bootstrap.min');
@@ -88,7 +90,7 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 			?>
 			<p>
 			<script type="text/javascript">
-		$("#foto").fileinput();
+		//$("#foto").fileinput();
 		
 		var basePath = "<?php echo Router::url('/'); ?>"
 	</script>
@@ -100,7 +102,7 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 		</div>
 	</div>
 		
-<?php echo $this->Html->script('jquery.min'); ?>
+
 <?php echo $this->Html->script('jquery-ui.min'); ?>
 
 		<?php

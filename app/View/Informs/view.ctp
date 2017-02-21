@@ -25,7 +25,9 @@
 		</td>
 </tr><tr>		<td><strong><?php echo __('Medicament'); ?></strong></td>
 		<td>
-			<?php echo $this->Html->link($inform['Medicament']['descripcion'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id']), array('class' => '')); ?>
+
+			<?php echo $this->Html->link($inform['Medicament']['descri'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id']), array('class' => '')); ?>
+
 			&nbsp;
 		</td>
 </tr><tr>		<td><strong><?php echo __('Diagnostico'); ?></strong></td>

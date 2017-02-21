@@ -19,26 +19,40 @@
 													<th class="text-center"><?php echo $this->Paginator->sort('diagnostico_id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('conclusiones'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('patient_id'); ?></th>
-													<th class="text-center"><?php echo $this->Paginator->sort('doctor_id'); ?></th>
+													<th class="text-center"><?php echo $this->Paginator->sort('Semanas'); ?></th>
+														<th class="text-center"><?php echo $this->Paginator->sort('doctor_id'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('created'); ?></th>
 													<th class="text-center"><?php echo $this->Paginator->sort('modified'); ?></th>
 												<th class="text-center"><?php echo __('Actions'); ?></th>
 						</tr>
 					</thead>
 					<tbody>
-					<?php foreach ($informs as $inform): ?>
+					<?php 
+
+
+					foreach ($informs as $inform): ?>
 	<tr>
 		<td class="text-center"><?php echo h($inform['Inform']['id']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['indicaciones']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($inform['Medicament']['id'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id'])); ?>
+			<?php echo $this->Html->link($inform['Medicament']['descri'], array('controller' => 'medicaments', 'action' => 'view', $inform['Medicament']['id'])); ?>
 		</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($inform['Diagnostico']['codigo'], array('controller' => 'diagnosticos', 'action' => 'view', $inform['Diagnostico']['id'])); ?>
 		</td>
 		<td class="text-center"><?php echo h($inform['Inform']['conclusiones']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link($inform['Patient']['id'], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id'])); ?>
+			<?php echo $this->Html->link($person[$inform['Patient']['id']], array('controller' => 'patients', 'action' => 'view', $inform['Patient']['id'])); ?>
+		</td>
+		<td class="text-center">
+
+			<?php
+			  $q= $patients[$inform['Patient']['id']];
+   $diff = date_diff(date_create($q),date_create(date("Y-m-d H:i:s")))->format("%R%a dias");
+   $weeks = $diff/8;
+   
+echo round($weeks, 0, PHP_ROUND_HALF_UP);
+			  ?>
 		</td>
 		<td class="text-center">
 			<?php echo $this->Html->link($inform['Doctor']['cod_sanitarios'], array('controller' => 'doctors', 'action' => 'view', $inform['Doctor']['id'])); ?>
@@ -46,7 +60,7 @@
 		<td class="text-center"><?php echo h($inform['Inform']['created']); ?>&nbsp;</td>
 		<td class="text-center"><?php echo h($inform['Inform']['modified']); ?>&nbsp;</td>
 		<td class="text-center">
-			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $inform['Inform']['id']), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
+			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-eye-open"></i>'), array('action' => 'view', $inform['Inform']['id'], 'ext' => 'pdf'), array('class' => 'btn btn-primary btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'view')); ?>
 			<?php echo $this->Html->link(__('<i class="glyphicon glyphicon-pencil"></i>'), array('action' => 'edit', $inform['Inform']['id']), array('class' => 'btn btn-warning btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'edit')); ?>
 			<?php echo $this->Form->postLink(__('<i class="glyphicon glyphicon-trash"></i>'), array('action' => 'delete', $inform['Inform']['id']), array('class' => 'btn btn-danger btn-xs', 'escape' => false, 'data-toggle'=>'tooltip', 'title' => 'delete'), __('Are you sure you want to delete # %s?', $inform['Inform']['id'])); ?>
 		</td>
@@ -67,9 +81,22 @@
 	echo $this->Html->script('jquery.min');
 	echo $this->Html->script('plugins/datatables/jquery.dataTables');
 	echo $this->Html->script('plugins/datatables/dataTables.bootstrap');
+	echo $this->Html->script('push.min');
 ?>
 <script type="text/javascript">
     $(function() {
         $("#Informs").dataTable();
     });
+
+
+    Push.create("Hello world!", {
+    body: "How's it hangin'?",
+    icon: 'icon.png',
+
+    onClick: function () {
+        window.focus();
+        this.close();
+    }
+});
+
 </script>

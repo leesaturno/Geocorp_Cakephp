@@ -1,45 +1,3 @@
-<style>
-
-
-
-
-p    {
-	
-	margin-left:3px;
-}
-
-#lee{
-	
-	padding-left:20%;
-	padding-right: 30%;
-}
-
-table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    font-size: 12px;    margin: 10px;     width: 480px; text-align: left;    border-collapse: collapse; }
-caption { font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
- 	text-align:center; 
- }
-
-th {     font-size: 13px;     font-weight: normal;     padding: 8px;   
-    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff;  }
-
-td {    padding: 8px;       border-bottom: 1px solid #fff;
-        border-top: 1px solid transparent; }
-h3 {
-	font-size: 15px;     font-weight: normal;      text-align: justify;     
-
- }
-
- tr {
- 	border:1 ; border-color: #000000;
- }
-
-div.container {
-    margin-left: 50px;
-}
-</style> 
-
-
 <div class="row">
     <div class="col-xs-12">
 		
@@ -61,7 +19,7 @@ div.container {
 		</td>
 </tr><tr>		<th><strong><?php echo __('Medicamento'); ?></strong></th>
 		<td>
-			<?php echo h($inform['Inform']['medicamento_id']); ?>
+			<?php echo h($inform['Inform']['medicament_id']); ?>
 			&nbsp;
 		</td>
 </tr><tr>		<th><strong><?php echo __('Diagnóstico'); ?></strong></th>

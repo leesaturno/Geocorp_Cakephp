@@ -16,16 +16,16 @@ class Person extends AppModel {
  
  */
 	public $virtualFields = array(
-    'name' => 'CONCAT("(",Person.cedula,") ",Person.nombre, " ", Person.nombre2, " ", Person.apellido," ",Person.apellido2)'
+    'name' => 'CONCAT(Person.cedula," ",Person.nombre, " ", Person.nombre2, " ", Person.apellido," ",Person.apellido2)'
 ); 
-	public $displayField = 'cedula';
+	public $displayField = 'name';
 
 /**
  * Validation rules
  *
  * @var array
  */
-	public $validate = array(
+	/*public $validate = array(
 		'nacionalidad' => array(
 			'notBlank' => array(
 				'rule' => array('notBlank'),
@@ -39,7 +39,7 @@ class Person extends AppModel {
 		'cedula' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
-				//'message' => 'Your custom message here',
+				'message' => 'mmg pon un numero',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
@@ -88,7 +88,7 @@ class Person extends AppModel {
 		),
 		'telefono' => array(
 			'numeric' => array(
-				'rule' => array('numeric'),
+				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -98,7 +98,7 @@ class Person extends AppModel {
 		),
 		'telefono_habitacion' => array(
 			'numeric' => array(
-				'rule' => array('numeric'),
+				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -108,7 +108,7 @@ class Person extends AppModel {
 		),
 		'telefono_movil' => array(
 			'phone' => array(
-				'rule' => array('phone'),
+				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -128,7 +128,7 @@ class Person extends AppModel {
 		),
 		'direccion' => array(
 			'postal' => array(
-				'rule' => array('postal'),
+				'rule' => array('notBlank'),
 				//'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
@@ -157,7 +157,7 @@ class Person extends AppModel {
 			),
 		),
 	);
-
+	*/
 	// The Associations below have been created with all possible keys, those that are not needed can be removed
 
 /**
@@ -165,15 +165,6 @@ class Person extends AppModel {
  *
  * @var array
  */
-	public $belongsTo = array(
-		'Ocupacion' => array(
-			'className' => 'Ocupacion',
-			'foreignKey' => 'ocupacion_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
-		)
-	);
 
 /**
  * hasMany associations

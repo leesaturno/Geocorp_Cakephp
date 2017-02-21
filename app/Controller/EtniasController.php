@@ -72,9 +72,13 @@ class EtniasController extends AppController {
 			throw new NotFoundException(__('Invalid etnia'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
+			debug($this->request->data);
+			exit();
 			if ($this->Etnia->save($this->request->data)) {
+
+
 				$this->Session->setFlash(__('The etnia has been saved'), 'flash/success');
-				$this->redirect(array('action' => 'index'));
+				//$this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The etnia could not be saved. Please, try again.'), 'flash/error');
 			}
