@@ -1,16 +1,13 @@
+<div class="container">
 <div class="row">
     <div class="col-xs-12">
 		
-		<div class="box box-primary">
-			<div class="box-header">
-				<h3 class="box-title"><?php  echo __('Informe'); ?></h3>
-				<div class="box-tools pull-right">
-	               
-	            </div>
-			</div>
+	
+				<h3><?php  echo __('Informe'); ?></h3>
+		
 			
-			<div class="box-body table-responsive">
-                <table id="Informs" class="table table-bordered table-striped">
+			<div class="table-responsive">
+                <table class="table table-bordered table-striped">
 					<tbody>
 						<tr>		<th><strong><?php echo __('Indicaciones'); ?></strong></th>
 		<td>

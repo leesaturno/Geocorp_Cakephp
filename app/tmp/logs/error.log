@@ -14497,3 +14497,100 @@ Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
 Stack Trace:
 #0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2017-02-20 17:58:57 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-20 18:00:06 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-20 18:06:43 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-20 18:21:04 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-20 18:27:00 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-20 20:19:11 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Host desconocido. ',
+  'enabled' => true,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(3653): Model->setSource('users')
+#5 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#6 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\View\Users\login.ctp(113): FormHelper->create('', Array)
+#9 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2017-02-21 01:21:48 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-20 19:39:36 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-02-20 19:41:09 Error: [MissingControllerException] Controller class Icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /Geocorp_Cakephp_2.7-/Geocorp_Cakephp_2.7-/icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\Geocorp_Cakephp_2.7-\Geocorp_Cakephp_2.7-\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -7,7 +7,7 @@
 	
 	<?php
 			
-echo $this->Html->css('bootstrap.min.css');
+echo $this->Html->css('style.css');
 		echo $this->fetch('css');
 	?>
 </head>
