@@ -88,6 +88,7 @@ echo round($weeks, 0, PHP_ROUND_HALF_UP);
         $("#Informs").dataTable();
     });
 
+
     Push.create("Hello world!", {
     body: "How's it hangin'?",
     icon: 'icon.png',
@@ -97,4 +98,5 @@ echo round($weeks, 0, PHP_ROUND_HALF_UP);
         this.close();
     }
 });
+
 </script>

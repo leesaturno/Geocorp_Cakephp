@@ -44,13 +44,13 @@
 														
 														<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('patient_id', ['label' => 'Paciente', 'class' => 'form-control']); ?>
+						<?php echo $this->Form->input('patient_id', ['label' => 'Paciente', 'class' => 'chosen-select form-control']); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 															
 															<div class="col-md-3">
 					<div class="form-group">
-						<?php echo $this->Form->input('doctor_id', ['label' => 'Doctor', 'class' => 'form-control']); ?>
+						<?php echo $this->Form->input('doctor_id', ['label' => 'Doctor', 'class' => 'chosen-select form-control']); ?>
 					</div><!-- .form-group -->
 					</div><!-- .form-group -->
 																

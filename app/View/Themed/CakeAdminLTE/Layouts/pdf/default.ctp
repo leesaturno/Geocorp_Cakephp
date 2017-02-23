@@ -6,9 +6,11 @@
 	</title>
 	
 	<?php
+
 			
 echo $this->Html->css('style.css');
 		echo $this->fetch('css');
+
 	?>
 </head>
 <body>
