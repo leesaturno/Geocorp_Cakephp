@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 1487827279
 a:3:{i:0;b:0;s:4:"name";a:9:{s:32:"69cb644bfe2f8987b2d96b3a9a6118f3";s:13:"`sql10159152`";s:32:"2c5ae22acd3f469d683d1d1245711440";s:14:"`Patient`.`id`";s:32:"9a3b3902711fa2660b477fddce101ec0";s:21:"`Patient`.`person_id`";s:32:"97e4c13a78dbd02b2c55fefaa562c815";s:10:"`patients`";s:32:"fdddec0bead4e0401912081b488944c6";s:9:"`Patient`";s:32:"09e568e4d777edc528fa11e693a0a232";s:24:"`SituacionConyugal`.`id`";s:32:"3941a46c7dc7aebd7d7f5289f0b7b25f";s:33:"`SituacionConyugal`.`descripcion`";s:32:"ce1c882005d5db9298aebfc6d6c2eb08";s:21:"`situacion_conyugals`";s:32:"b8e1487163943bf67c3aab9d9502af25";s:19:"`SituacionConyugal`";}s:6:"fields";a:2:{s:32:"8cf08ab56058f007bbd181ca9cb215df";a:2:{i:0;s:14:"`Patient`.`id`";i:1;s:21:"`Patient`.`person_id`";}s:32:"25e26f90480d0c55144b96b5198d449e";a:2:{i:0;s:24:"`SituacionConyugal`.`id`";i:1;s:33:"`SituacionConyugal`.`descripcion`";}}}
+=======
+1487292586
+a:2:{i:0;b:0;s:4:"name";a:2:{s:32:"69cb644bfe2f8987b2d96b3a9a6118f3";s:13:"`sql10159152`";s:32:"f94a437fb7858e092079378f93ef2c71";s:7:"`users`";}}
+>>>>>>> fdc56025aabcca7c89b7d6f1377c711790122d03
