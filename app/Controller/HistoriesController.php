@@ -51,16 +51,8 @@ class HistoriesController extends AppController {
 		
 		$this->loadModel('Patient');
 			if ($this->request->is('post')) {
-              $Lastone = $this->Person->find('first', array('order' => array('Patient.created' => 'desc')));
-
-             }else{
-              $Lastone = $this->Patient->find('first', array('conditions' => array('Patient.id' => $this->request->data['Patient']['id'])));
-
-             }
-    
-             $this->request->data['history']['patient_id'] = $Lastone['Patient']['id'];
-	
-			$this->History->create();
+         
+				$this->History->create();
 			if ($this->History->save($this->request->data)) {
 				$this->Session->setFlash(__('Historia Registrada'), 'flash/success');
 				$this->redirect(array('action' => 'index'));
