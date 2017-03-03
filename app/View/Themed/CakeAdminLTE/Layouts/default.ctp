@@ -48,9 +48,9 @@ $cakeDescription = __d('cake_dev', 'Geocorp');
 			echo $this->Html->css('CakeAdminLTE');
 			echo $this->Html->css('chosen.min');
 			echo $this->fetch('css');
-			//echo $this->Html->script('libs/jquery-1.10.2.min');
+			//echo $this->Html->script('jquery-1.10.2.min');
 			//echo $this->Html->script('libs/bootstrap.min');
-			
+			 echo $this->Html->script('chosen.jquery.min');
 			echo $this->fetch('script');
 		?>
 	</head>

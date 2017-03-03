@@ -132,13 +132,7 @@ class History extends AppModel {
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
-		),
-		'Question' => array(
-			'className' => 'Question',
-			'foreignKey' => 'question_id',
-			'conditions' => '',
-			'fields' => '',
-			'order' => ''
 		)
 	);
+	public $hasOne='History';
 }

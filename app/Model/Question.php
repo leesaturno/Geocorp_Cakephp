@@ -369,20 +369,7 @@ class Question extends AppModel {
  *
  * @var array
  */
-	public $hasMany = array(
-		'History' => array(
-			'className' => 'History',
-			'foreignKey' => 'question_id',
-			'dependent' => false,
-			'conditions' => '',
-			'fields' => '',
-			'order' => '',
-			'limit' => '',
-			'offset' => '',
-			'exclusive' => '',
-			'finderQuery' => '',
-			'counterQuery' => ''
-		)
-	);
+	
+	
 
 }
