@@ -5,9 +5,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'sql10.freemysqlhosting.net',
-		'login' => 'sql10159152',
-		'password' => 'sLINts863W',
-		'database' => 'sql10159152',
+		'login' => 'sql10161480',
+		'password' => '6lkH2uE6zz',
+		'database' => 'sql10161480',
 		'encoding' => 'utf8',
 		'port'   => '3306',
 	);
