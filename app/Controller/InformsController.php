@@ -42,16 +42,16 @@ class InformsController extends AppController {
 	public function view($id = null) {
 		if (!$this->Inform->exists($id)) {
 			throw new NotFoundException(__('Invalid inform'));
-<<<<<<< HEAD
-		}
-=======
 
 		}
+
+
+		
 		 		$this->pdfConfig = array(
 			'download' => true,
 			'filename' => 'inform_' . $id .'.pdf'
 		);
->>>>>>> d59bf00910bcafac792a452682c54175c0304eeb
+
 		$options = array('conditions' => array('Inform.' . $this->Inform->primaryKey => $id));
 		$this->set('inform', $this->Inform->find('first', $options));
 	}

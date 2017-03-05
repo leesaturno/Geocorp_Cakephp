@@ -47,11 +47,11 @@
 		<td class="text-center">
 
 			<?php
-			  $q= $patients[$inform['Patient']['id']];
-   $diff = date_diff(date_create($q),date_create(date("Y-m-d H:i:s")))->format("%R%a dias");
-   $weeks = $diff/8;
+			 echo  $patients[$inform['Patient']['id']];
+  // $diff = date_diff(date_create($q),date_create(date("Y-m-d H:i:s")))->format("%R%a dias");
+   //$weeks = $diff/8;
    
-echo round($weeks, 0, PHP_ROUND_HALF_UP);
+ // echo round($weeks, 0, PHP_ROUND_HALF_UP);
 			  ?>
 		</td>
 		<td class="text-center">

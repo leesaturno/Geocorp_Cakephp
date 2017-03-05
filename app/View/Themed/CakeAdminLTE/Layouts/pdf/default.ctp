@@ -7,9 +7,8 @@
 	
 	<?php
 
-echo $this->Html->css('style');
-		
-
+			
+echo $this->Html->css('style.css');
 		echo $this->fetch('css');
 
 	?>
