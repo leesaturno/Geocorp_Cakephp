@@ -1,3 +1,6 @@
+#**Nota esta version del proyecto no contiene la base de codigo completa y el desarrolador se reserva el derecho a no actualizar dicha base**#
+
+
 # CakePHP
 
 [![Latest Stable Version](https://poser.pugx.org/cakephp/cakephp/v/stable.svg)](https://packagist.org/packages/cakephp/cakephp)
