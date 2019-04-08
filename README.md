@@ -1,4 +1,4 @@
-keywords: "geocorp, msaturnoyno, msaturnoyno geocorp, geocorp cakephp"
+<meta name="google-site-verification" content="OwWve6fHaUu2WMOK3O6CiCRwJXaz3y4c5bbA_Brbwog" />
 # **Nota esta version del proyecto no contiene la base de codigo completa y el desarrollador se reserva el derecho a no actualizar dicha base**
 
 
